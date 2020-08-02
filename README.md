@@ -1,23 +1,24 @@
 # SeleniumProject
-This is our new repository to work on Youtube Videos
+The scope of this document is to give you an introduction about the Youtube Automation Framework
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Test Cases](#test-cases)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
+This document intends to summarize all the testing activities to be conducted under the scope of YouTube project.
+ Details will be given on the features to be tested, on the deliverables and the results.
 	
 ## Technologies
 Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+* IntelliJ
+* JAVA
+* Selenium Webdriver
 	
-## Setup
-To run this project, install it locally using npm:
+## Test Cases
+Test Suite has been createdyou can see it here:
 
 ```
-$ npm install
-$ npm start
+
 ```
