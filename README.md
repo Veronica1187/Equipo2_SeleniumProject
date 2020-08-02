@@ -4,7 +4,7 @@ The scope of this document is to give you an introduction about the Youtube Auto
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Test Cases](#test-cases)
+* [Test Items](#test-items)
 
 ## General info
 This document intends to summarize all the testing activities to be conducted under the scope of YouTube project.
@@ -16,8 +16,13 @@ Project is created with:
 * JAVA
 * Selenium Webdriver
 	
-## Test Cases
-Test Suite has been createdyou can see it here:
+## Test Items
+1.	Home Page: 
+1.1	Header Area
+1.2	Main Area
+1.3	Left Menu
+2.	Video Detail Pages
+
 
 ```
 
