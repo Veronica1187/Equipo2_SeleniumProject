@@ -7,7 +7,7 @@ The scope of this document is to give you an introduction about the Youtube Auto
 * [Technologies](#technologies)
 * [Test Items](#test-items)
 * [Links](#links)
-* [Files Includes With This Project:](#files-includes-with-this-project:)
+* [Files Includes With This Project:](#files-includes-with-this-project)
 
 ## General info
 This document intends to summarize all the testing activities to be conducted under the scope of YouTube project.
@@ -27,14 +27,14 @@ Project is created with:
 2.	Video Detail Pages
 
 ## Links
-* Test cases:
+* Test cases: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_TestCases.xls
 
 * Process chart diagram
 https://drive.google.com/file/d/12dpVrawPrg_VmN16PFhRDP8oY8k1-YW4/view?usp=sharing
 ```
 
 ```
-## Files Includes With This Project:
+## Files Includes With This Project
 1. Test Plan
 2. Main Test Suite
 3. Regression Test Suite
