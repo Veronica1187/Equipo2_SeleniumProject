@@ -37,6 +37,6 @@ https://app.diagrams.net/#HVeronica1187%2FEquipo2_SeleniumProject%2Fmaster%2FUnt
 ## Files Includes With This Project
 1. Test Plan: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/YouTube_TestPlan.odt
 2. Main Test Suite: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Main_Test_Suite.xls
-3. Regression Test Suite: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Regression_Test_Suite.xls
+3. Regression Test Suite: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Regression_Test_Suite.xlsx
 4. UML Diagram: https://app.diagrams.net/#HVeronica1187%2FEquipo2_SeleniumProject%2Fmaster%2FUntitled%20Diagram.drawio
  
