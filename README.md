@@ -27,16 +27,16 @@ Project is created with:
 2.	Video Detail Pages
 
 ## Links
-* Test cases: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_TestCases.xls
+* Test cases: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Main_Test_Suite.xls
 
 * Process chart diagram
-https://drive.google.com/file/d/12dpVrawPrg_VmN16PFhRDP8oY8k1-YW4/view?usp=sharing
+https://app.diagrams.net/#HVeronica1187%2FEquipo2_SeleniumProject%2Fmaster%2FUntitled%20Diagram.drawio
 ```
 
 ```
 ## Files Includes With This Project
-1. Test Plan
-2. Main Test Suite
-3. Regression Test Suite
-4. UML Diagram.
+1. Test Plan: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/YouTube_TestPlan.odt
+2. Main Test Suite: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Main_Test_Suite.xls
+3. Regression Test Suite: https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/development/Youtube_Regression_Test_Suite.xls
+4. UML Diagram: https://app.diagrams.net/#HVeronica1187%2FEquipo2_SeleniumProject%2Fmaster%2FUntitled%20Diagram.drawio
  
