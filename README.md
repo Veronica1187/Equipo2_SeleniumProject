@@ -38,5 +38,5 @@ https://drive.google.com/file/d/12dpVrawPrg_VmN16PFhRDP8oY8k1-YW4/view?usp=shari
 1. Test Plan
 2. Main Test Suite
 3. Regression Test Suite
-4. UML Diagram
+4. UML Diagram.
  
