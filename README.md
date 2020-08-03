@@ -1,4 +1,4 @@
-![Test Image 4](https://github.com/Veronica1187/Equipo2_SeleniumProject/tree/AdrianaBenitez/Logo.png)
+![Test Image 4](https://github.com/Veronica1187/Equipo2_SeleniumProject/blob/AdrianaBenitez/LOGO.png)
 # SeleniumProject
 The scope of this document is to give you an introduction about the Youtube Automation Framework
 
