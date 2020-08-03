@@ -7,7 +7,7 @@ The scope of this document is to give you an introduction about the Youtube Auto
 * [Technologies](#technologies)
 * [Test Items](#test-items)
 * [Links](#links)
-* [Files Includes With This Project:](#file-includes-with-this-project:)
+* [Files Includes With This Project:](#files-includes-with-this-project:)
 
 ## General info
 This document intends to summarize all the testing activities to be conducted under the scope of YouTube project.
@@ -21,9 +21,9 @@ Project is created with:
 
 ## Test Items
 1.	Home Page:
-1.1	Header Area
-1.2	Main Area
-1.3	Left Menu
+*	Header Area
+*	Main Area
+*	Left Menu
 2.	Video Detail Pages
 
 ## Links
