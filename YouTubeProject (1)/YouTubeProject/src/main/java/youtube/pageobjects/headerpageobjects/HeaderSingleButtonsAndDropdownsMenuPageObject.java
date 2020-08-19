@@ -11,10 +11,10 @@ public class HeaderSingleButtonsAndDropdownsMenuPageObject extends YoutubeBasePa
     private WebElement YoutubeIconButton;
 
     @FindBy()
-    private WebElement createMenu;
+    private WebElement createDropdown;
 
     @FindBy()
-    private WebElement appsMenu;
+    private WebElement appsDropdown;
 
     @FindBy()
     private WebElement signInButton;

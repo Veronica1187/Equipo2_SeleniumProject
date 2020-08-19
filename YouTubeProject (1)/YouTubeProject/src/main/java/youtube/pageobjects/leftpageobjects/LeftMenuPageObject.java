@@ -9,45 +9,41 @@ public class LeftMenuPageObject extends YoutubeBasePageObject {
 
 
     @FindBy()
-    private WebElement HomeButton;
+    private WebElement LeftHomeButton;
 
     @FindBy()
-    private WebElement trendingButton;
+    private WebElement LeftTrendingButton;
 
     @FindBy()
-    private WebElement subscriptionsButton;
+    private WebElement LeftSubscriptionsButton;
 
     @FindBy()
-    private WebElement libraryButton;
+    private WebElement LeftLibraryButton;
 
     @FindBy()
-    private WebElement historyButton;
+    private WebElement LeftHistoryButton;
 
     public LeftMenuPageObject(WebDriver driver, String baseURL) {
         super(driver, baseURL);
     }
 
-    public void clickOnHamburguerButton(){
+    public void clickOnLeftHomeButton(){
 
     }
 
-    public void clickOnHomeButton(){
+    public void clickOnLeftTrendingButton(){
 
     }
 
-    public void clickOnTrendingButton(){
+    public void clickOnLeftSubscriptionsButton(){
 
     }
 
-    public void clickOnSubscriptionsButton(){
+    public void clickOnLeftLibraryButton(){
 
     }
 
-    public void clickOnLibraryButton(){
-
-    }
-
-    public void clickOnHistoryButton(){
+    public void clickOnLeftHistoryButton(){
 
     }
 }

@@ -8,36 +8,29 @@ import youtube.pageobjects.YoutubeBasePageObject;
 
 import java.util.List;
 
-public class MainHomeResultsPageObject extends YoutubeBasePageObject implements InterfaceVideo.Video {
+public class MainSearchResultsPageObject extends YoutubeBasePageObject implements InterfaceVideo.Video {
 
     @FindBy()
-    private List<WebElement> recomendedVideos;
+    private List<WebElement> mainSearchListOfVideos;
 
     @FindBy()
-    private List<WebElement> trendingVideos;
+    private WebElement mainSearchthumbnail;
 
     @FindBy()
-    private List<WebElement> otherVideos;
+    private WebElement mainSearchthumbnailDescription;
 
     @FindBy()
-    private WebElement thumbnail;
+    private WebElement mainSearchthumbnailChannelName;
 
     @FindBy()
-    private WebElement thumbnailDescription;
+    private WebElement mainSearchthumbnailViews;
 
     @FindBy()
-    private WebElement thumbnailChannelName;
+    private WebElement mainSearchthumbnailReleasedDate;
 
-    @FindBy()
-    private WebElement thumbnailViews;
-
-    @FindBy()
-    private WebElement thumbnailReleasedDate;
-
-    public MainHomeResultsPageObject(WebDriver driver, String baseURL) {
+    public MainSearchResultsPageObject(WebDriver driver, String baseURL) {
         super(driver, baseURL);
     }
-
 
     @Override
     public void clickOnThumbnail() {
@@ -64,3 +57,4 @@ public class MainHomeResultsPageObject extends YoutubeBasePageObject implements 
 
     }
 }
+

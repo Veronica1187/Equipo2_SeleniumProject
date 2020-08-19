@@ -1,6 +1,7 @@
 package youtube.usersteps;
 
 import org.openqa.selenium.WebDriver;
+import youtube.pageobjects.headerpageobjects.HeaderSearchPageObject;
 import youtube.pages.YoutubeHomePage;
 
 public class YoutubeHomePageUserSteps {
@@ -12,7 +13,9 @@ public class YoutubeHomePageUserSteps {
     }
 
     public void searchVideos(String videos){
-
+        HeaderSearchPageObject youtubeSearchPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSearchPageObject();
+        youtubeSearchPageObject.sendKeysSearchBox(videos);
+        youtubeSearchPageObject.clickOnSearchButton();
     }
 
     public void displayHamburguerMenu(){

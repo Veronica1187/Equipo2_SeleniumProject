@@ -14,16 +14,16 @@ public class HeaderHamburguerMainMenuPageObject extends YoutubeBasePageObject {
     private WebElement hamburguerHomeButton;
 
     @FindBy()
-    private WebElement hamburguertrendingButton;
+    private WebElement hamburguerTrendingButton;
 
     @FindBy()
-    private WebElement hamburguersubscriptionsButton;
+    private WebElement hamburguerSubscriptionsButton;
 
     @FindBy()
-    private WebElement hamburguerlibraryButton;
+    private WebElement hamburguerLibraryButton;
 
     @FindBy()
-    private WebElement hamburguerhistoryButton;
+    private WebElement hamburguerHistoryButton;
 
     public HeaderHamburguerMainMenuPageObject(WebDriver driver, String baseURL) {
         super(driver, baseURL);

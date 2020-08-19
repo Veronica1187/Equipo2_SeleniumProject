@@ -3,16 +3,17 @@ package youtube.pageobjects.headerpageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import youtube.pageobjects.YoutubeBasePageObject;
 
 import java.util.List;
 
 public class HeaderSettingsPageObject extends YoutubeBasePageObject {
 
-    @FindBy()
+    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Settings']")
     private WebElement settingsDropdown;
 
-    @FindBy()
+    @FindBy(how = How.XPATH, using = "//div[@id = 'items']//div[@id = 'label']")
     private WebElement theme;
 
     @FindBy()

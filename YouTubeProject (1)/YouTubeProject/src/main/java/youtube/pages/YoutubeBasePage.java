@@ -16,4 +16,16 @@ public class YoutubeBasePage {
         this.youtubeLeftComponent = new YoutubeLeftComponent(driver);
         this.youtubeMainComponent = new YoutubeMainComponent(driver);
     }
+
+    public YoutubeHeaderComponent getYoutubeHeaderComponent() {
+        return youtubeHeaderComponent;
+    }
+
+    public YoutubeLeftComponent getYoutubeLeftComponent() {
+        return youtubeLeftComponent;
+    }
+
+    public YoutubeMainComponent getYoutubeMainComponent() {
+        return youtubeMainComponent;
+    }
 }
