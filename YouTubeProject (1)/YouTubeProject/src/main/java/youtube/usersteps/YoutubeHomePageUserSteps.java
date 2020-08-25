@@ -34,4 +34,25 @@ public class YoutubeHomePageUserSteps {
 
     }
 
+    public void searchForVideo(){
+    }
+
+    public void selectVideoFromResults(){
+
+    }
+
+    public void selectVideoThumbnailFromRecommended(){
+
+    }
+
+    public void selectVideoThumbnailFromTrending(){
+
+    }
+
+
+    public void selectVideoThumbnailFromNews(){
+
+    }
+
+
 }
