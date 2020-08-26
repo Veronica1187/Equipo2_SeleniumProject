@@ -1,4 +1,5 @@
 package youtube.pageobjects.videodetailspageobjects;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -6,6 +7,8 @@ import org.openqa.selenium.support.How;
 import youtube.pageobjects.YoutubeBasePageObject;
 
 public class VideoDetailsPageObjects extends YoutubeBasePageObject{
+
+    JavascriptExecutor js = (JavascriptExecutor) driver;
 
     @FindBy(how=How.XPATH, using="//button[@class='ytp-play-button ytp-button’]")
     private WebElement videoPlayer;
@@ -43,9 +46,11 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     @FindBy(how=How.XPATH, using="//a//yt-icon-button[@class='style-scope ytd-button-renderer style-default size-default']")
     private WebElement shareButton;
 
-    @FindBy(how=How.XPATH, using="")
+    @FindBy(how=How.XPATH, using="//paper-dialog[@class='style-scope ytd-popup-container']/ytd-unified-share-panel-renderer/yt-icon-button[@id='close-button']/button[contains(@aria-label,'Cancel')]")
     private WebElement shareclose;
-    @FindBy()
+
+
+    @FindBy(how=How.XPATH, using)
     private WebElement replayVideoButton;
 
     @FindBy(how=How.XPATH, using="//a[@class='ytp-next-button ytp-button']")
@@ -109,7 +114,9 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
 
     public void clickOnThumbnailsDetails(){}
 
-    public void clickOnShareVideo(){this.shareButton.click();}
+    public void clickOnShareVideo(){this.shareButton.click();
+
+        js.executeScript("arguments[0].click();",this.shareclose);}
 
 
     public void clickOnNextVideo(){this.nextVideoButton.click();}
