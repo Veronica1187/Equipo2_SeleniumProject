@@ -10,8 +10,11 @@ import java.util.List;
 
 public class HeaderSettingsPageObject extends YoutubeBasePageObject {
 
-    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Settings']")
+    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Configuración']")
     private WebElement settingsDropdown;
+
+    @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]")
+    private List<WebElement> optionsSettingsDropdown;
 
     @FindBy(how = How.XPATH, using = "//div[@id = 'items']//div[@id = 'label']")
     private WebElement theme;
@@ -46,7 +49,11 @@ public class HeaderSettingsPageObject extends YoutubeBasePageObject {
 
 
     public void clickOnSettingsDropdown(){
+        this.settingsDropdown.click();
+    }
 
+    public boolean isEmptyOptionsSettingsDropdown(){
+       return  this.optionsSettingsDropdown.isEmpty();
     }
 
     public void clickOnTheme(){
