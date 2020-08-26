@@ -50,7 +50,7 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     private WebElement shareclose;
 
 
-    @FindBy(how=How.XPATH, using)
+    @FindBy(how=How.XPATH)
     private WebElement replayVideoButton;
 
     @FindBy(how=How.XPATH, using="//a[@class='ytp-next-button ytp-button']")
