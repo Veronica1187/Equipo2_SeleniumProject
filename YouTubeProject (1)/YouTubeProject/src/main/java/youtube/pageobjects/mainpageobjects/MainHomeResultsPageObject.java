@@ -3,12 +3,16 @@ package youtube.pageobjects.mainpageobjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import youtube.pageobjects.InterfaceVideo;
 import youtube.pageobjects.YoutubeBasePageObject;
 
 import java.util.List;
 
 public class MainHomeResultsPageObject extends YoutubeBasePageObject implements InterfaceVideo.Video {
+
+    @FindBy(how = How.XPATH, using = "//ytd-rich-item-renderer//a[@id='thumbnail']")
+    private List<WebElement> allVideosList;
 
     @FindBy()
     private List<WebElement> recomendedVideos;
@@ -40,12 +44,12 @@ public class MainHomeResultsPageObject extends YoutubeBasePageObject implements 
 
 
     @Override
-    public void clickOnThumbnail() {
-
+    public void clickOnThumbnail(int videoNumber) {
+        this.allVideosList.get(videoNumber).click();
     }
 
     @Override
-    public void clickOnThumbnailDescription() {
+    public void clickOnThumbnailDescription(int x) {
 
     }
 
