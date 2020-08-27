@@ -1,18 +1,21 @@
 package youtube.usersteps;
 
 import org.openqa.selenium.WebDriver;
+import youtube.pageobjects.videodetailspageobjects.VideoDetailsPageObjects;
 import youtube.pages.YoutubeVideoPage;
 
 public class YoutubeVideoPageUserSteps {
 
     private YoutubeVideoPage youtubeVideoPage;
 
+    private VideoDetailsPageObjects videoDetailsPageObjects;
+
     public YoutubeVideoPageUserSteps(WebDriver driver){
         this.youtubeVideoPage = new YoutubeVideoPage(driver);
     }
 
     public void playVideo(){
-
+        this.videoDetailsPageObjects.clickOnPlayButton();
     }
 
     public void pauseVideo(){
