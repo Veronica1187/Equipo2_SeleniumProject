@@ -34,6 +34,8 @@ public class MainTrendingResultsPageObject extends YoutubeBasePageObject impleme
         super(driver, baseURL);
     }
 
+
+
     public void clickOnMainTrendingMusicButton(){
         this.mainTrendingMenu.get(0).click();
     }

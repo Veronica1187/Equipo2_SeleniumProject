@@ -7,7 +7,7 @@ import youtube.pageobjects.videodetailspageobjects.VideoDetailsPageObjects;
 public class YoutubeVideoDetailsComponent {
     private VideoDetailsPageObjects videoDetailsPageObjects;
 
-    public VideoDetailsPageObjects (WebDriver driver) {
+    public YoutubeVideoDetailsComponent (WebDriver driver) {
         this.videoDetailsPageObjects = new VideoDetailsPageObjects(driver, driver.getCurrentUrl());
     }
 

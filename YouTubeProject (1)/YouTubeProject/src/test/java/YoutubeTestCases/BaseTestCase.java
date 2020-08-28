@@ -19,8 +19,8 @@ public class BaseTestCase {
 
         // Get correct driver for desire browser
         myDriver = WebDriverFactory.getDriver(browser);
-        myDriver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
-        myDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        myDriver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
+        myDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         myDriver.manage().window().maximize();
     }
 
