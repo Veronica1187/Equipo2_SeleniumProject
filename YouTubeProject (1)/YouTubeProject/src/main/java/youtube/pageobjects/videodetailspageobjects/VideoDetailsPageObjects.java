@@ -82,46 +82,62 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
     }
 
     public void clickOnPauseButton(){
-        this.pauseButton.click();
+    this.pauseButton.click();
     }
+
     public void clickOnMuteButton(){
-        this.muteButton.click();
+    this.muteButton.click();
     }
 
     public void clickOnUnmuteButton(){
-        this.unmuteButton.click();
+    this.unmuteButton.click();
     }
 
     public void clickOnFullscreenButton(){
-        this.fullScreenButton.click();
+    this.fullScreenButton.click();
     }
 
     public void clickOnLikeVideo(){
-        this.likeVideo.click();
+    this.likeVideo.click();
     }
 
     public void clickOnUnlikeVideo(){
-        this.unlikeVideo.click();
+    this.unlikeVideo.click();
     }
 
-    public void addPublicComment(){this.AddPublicComment.click();}
+    public void addPublicComment(){
+    this.AddPublicComment.click();
+    }
 
-    public void changeToTheatherVideo(){this.thearerModeButton.click();}
+    public void changeToTheatherVideo(){
+    this.thearerModeButton.click();
+    }
 
-    public void changeToMiniVideo(){this.miniPlayerButton.click();}
+    public void changeToMiniVideo(){
+    this.miniPlayerButton.click();
+    }
 
-    public void clickOnThumbnailsVideos(){this.videoThumbnailDetailsPage.click();}
+    public void clickOnThumbnailsVideos(){
+    this.videoThumbnailDetailsPage.click();
+    }
 
-    public void clickOnThumbnailsDetails(){}
+    public void clickOnThumbnailsDetails(){
 
-    public void clickOnShareVideo(){this.shareButton.click();
+    }
+
+    public void clickOnShareVideo(){
+    this.shareButton.click();
 
         js.executeScript("arguments[0].click();",this.shareclose);}
 
 
-    public void clickOnNextVideo(){this.nextVideoButton.click();}
+    public void clickOnNextVideo(){
+    this.nextVideoButton.click();
+    }
 
-    public void clickOnReplayVideo(){this.replayVideoButton.click();}
+    public void clickOnReplayVideo(){
+    this.replayVideoButton.click();
+    }
 
     public void videoInformation(){
     this.titlevideo.getText();
