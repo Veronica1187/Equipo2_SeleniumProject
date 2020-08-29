@@ -9,8 +9,8 @@
         <module name="YouTubeProject" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="YouTubeProject" target="1.8" />
+    <bytecodeTargetLevel target="14">
+      <module name="YouTubeProject" target="14" />
     </bytecodeTargetLevel>
   </component>
 </project>
