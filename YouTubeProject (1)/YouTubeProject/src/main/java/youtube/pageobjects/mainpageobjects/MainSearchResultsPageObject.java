@@ -30,6 +30,7 @@ public class MainSearchResultsPageObject extends YoutubeBasePageObject implement
         super(driver, baseURL);
     }
 
+
     public String[] getNumberOfViewsAndReleaseDate(int videoNumber){
         String viewsRelease = this.mainSearchthumbnailViewsReleasedDate.get(videoNumber).getAttribute("innerText");
         String[] arrayViewsrelease = viewsRelease.split("\\n");

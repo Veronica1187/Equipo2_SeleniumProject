@@ -16,7 +16,7 @@ public class HeaderSingleButtonsAndDropdownsMenuPageObject extends YoutubeBasePa
     @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Crear']")
     private WebElement createDropdown;
 
-    @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]")
+    @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]//yt-formatted-string[@id='label']")
     private List<WebElement> optionsCreateDropdown;
 
     @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Apps de YouTube']")
@@ -36,11 +36,21 @@ public class HeaderSingleButtonsAndDropdownsMenuPageObject extends YoutubeBasePa
         this.YoutubeIconButton.click();
     }
 
+    public void clickOnCreateButton(){
+        this.createDropdown.click();
+    }
+
     public boolean isEmptyOptionsCreateDropdown(){
         return  this.optionsCreateDropdown.isEmpty();
     }
-    public void selectOnCreateDropdown(){
 
+    public boolean isOptionInCreateDropdown(String option){
+        for(WebElement element : this.optionsCreateDropdown){
+            if(element.getAttribute("innerText").trim().equals(option)){
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean isEmptyOptionsAppsDropdown(){
