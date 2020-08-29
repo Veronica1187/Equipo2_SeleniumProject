@@ -48,11 +48,12 @@ public class YoutubeVideoPageUserSteps {
     public void shareVideo() {
         VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
         videoDetailsPageObjects.clickOnShareVideo();
+        videoDetailsPageObjects.clickCloseShare();
     }
 
-    public void replayVideo() {
+    public void videoInformation(){
         VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
-        videoDetailsPageObjects.clickOnReplayVideo();
+        videoDetailsPageObjects.videoInformation();
     }
 
     public void selectNextVideo() {

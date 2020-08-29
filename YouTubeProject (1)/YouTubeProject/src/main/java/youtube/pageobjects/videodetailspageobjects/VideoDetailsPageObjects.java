@@ -31,7 +31,7 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     @FindBy(how=How.XPATH, using="//h1/yt-formatted-string")
     private WebElement titlevideo;
 
-    @FindBy(how=How.XPATH, using="//div//span[@class='view-count style-scope it-view-count-renderer']")
+    @FindBy(how=How.XPATH, using="//div//yt-view-count-renderer")
     private WebElement videoviews;
 
     @FindBy(how=How.XPATH, using="//div/yt-formatted-string[@class='style-scope ytd-video-primary-info-renderer']")
@@ -50,8 +50,8 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     private WebElement shareclose;
 
 
-    @FindBy(how=How.XPATH)
-    private WebElement replayVideoButton;
+    @FindBy(how=How.XPATH, using="//div//ytd-channel-name[@id='channel-name']")
+    private WebElement channelowner;
 
     @FindBy(how=How.XPATH, using="//a[@class='ytp-next-button ytp-button']")
     private WebElement nextVideoButton;
@@ -68,6 +68,8 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     @FindBy(how=How.ID, using="placeholder-area")
     private WebElement AddPublicComment;
 
+    @FindBy(how=How.XPATH, using="//div[@id='description']")
+    private WebElement DescriptionSite;
 
 
 
@@ -125,22 +127,23 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
 
     public void clickOnShareVideo(){
     this.shareButton.click();
+}
 
-        js.executeScript("arguments[0].click();",this.shareclose);}
-
+public void clickCloseShare(){
+    js.executeScript("arguments[0].click();",this.shareclose);
+}
 
     public void clickOnNextVideo(){
     this.nextVideoButton.click();
     }
 
-    public void clickOnReplayVideo(){
-    this.replayVideoButton.click();
-    }
 
     public void videoInformation(){
-    this.titlevideo.getText();
-    this.videoviews.getText();
-    this.publisheddate.getText();
+   System.out.println(this.titlevideo.getText());
+   System.out.println(this.videoviews.getText());
+   System.out.println(this.publisheddate.getText());
+   System.out.println(this.channelowner.getText());
+   System.out.println(this.DescriptionSite.getText());
     }
 
 }
