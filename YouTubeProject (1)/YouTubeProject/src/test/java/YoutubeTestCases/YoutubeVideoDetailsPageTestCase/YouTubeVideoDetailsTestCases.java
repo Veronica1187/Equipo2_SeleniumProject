@@ -9,63 +9,59 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testPlayVideo() {
         this.myDriver.get("https://www.youtube.com/");
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.playVideo();
-        youtubeUserSteps.selectVideoThumbnail();
+        //youtubeUserSteps.selectVideoThumbnail();
+        youtubeUserSteps.playVideo();
+
     }
 
     @Test
     public void testPauseVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.pauseVideo();
+        youtubeUserSteps.pauseVideo();
     }
 
     @Test
     public void testMuteVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.muteVideo();
+        youtubeUserSteps.muteVideo();
     }
 
     @Test
     public void testUnmuteVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.unMuteVideo();
+        youtubeUserSteps.unMuteVideo();
 
     }
 
-    @Test
-    public void selectFullscreen(){
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.selectFullScreenButton();
-    }
 
     @Test
     public void testLikeVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.likeVideo();
+        youtubeUserSteps.likeVideo();
     }
 
     @Test
     public void testUnlikeVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.unlikeVideo();
+        youtubeUserSteps.unlikeVideo();
     }
 
     @Test
     public void testShareVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.shareVideo();
+        youtubeUserSteps.shareVideo();
     }
 
     @Test
     public void testReplayVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.replayVideo();
+        youtubeUserSteps.replayVideo();
     }
 
     @Test
     public void testSelectNextVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        //youtubeUserSteps.selectNextVideo();
+        youtubeUserSteps.selectNextVideo();
     }
 
     @Test
@@ -74,21 +70,5 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         youtubeUserSteps.selectVideoThumbnail();
     }
 
-    @Test
-    public void testSelectMiniPlayer(){
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.selectMiniPLayerButton();
-    }
 
-    @Test
-    public void testSelectTheater(){
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.selectTheaterButton();
-    }
-
-    @Test
-    public void testAddingPublicComment(){
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.addPublicComment();
-    }
 }

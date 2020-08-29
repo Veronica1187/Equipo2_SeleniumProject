@@ -71,8 +71,6 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
 
 
 
-
-
 public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
     super(driver, baseURL);
 }

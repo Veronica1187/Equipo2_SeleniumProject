@@ -24,9 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pages/YoutubeMainAreaPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeHomePageUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeHomePageUserSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeMainAreaUserSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeVideoPageUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeVideoPageUserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

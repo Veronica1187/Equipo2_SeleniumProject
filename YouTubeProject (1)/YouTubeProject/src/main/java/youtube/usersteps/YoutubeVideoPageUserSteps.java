@@ -13,21 +13,56 @@ public class YoutubeVideoPageUserSteps {
         this.youtubeVideoPage = new YoutubeVideoPage(driver);
     }
 
-    public void selectVideoThumbnail(){
+    public void playVideo() {
         VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
         videoDetailsPageObjects.clickOnPlayButton();
     }
 
-    public void selectMiniPLayerButton(){
 
+    public void pauseVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnPauseButton();
     }
 
-    public void selectTheaterButton(){
-
+    public void muteVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnMuteButton();
     }
 
-    public void addPublicComment(){
+    public void unMuteVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnUnmuteButton();
+    }
 
+
+    public void likeVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnLikeVideo();
+    }
+
+    public void unlikeVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnUnlikeVideo();
+    }
+
+    public void shareVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnShareVideo();
+    }
+
+    public void replayVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnReplayVideo();
+    }
+
+    public void selectNextVideo() {
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnNextVideo();
+    }
+
+    public void selectVideoThumbnail(){
+        VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        videoDetailsPageObjects.clickOnThumbnailsVideos();
     }
 
 }
