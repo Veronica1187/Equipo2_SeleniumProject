@@ -23,7 +23,7 @@ public class Subscriptions extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='subscriptions']//paper-button[@id='button' and @aria-label='Acceder']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/subscriptions");
-        softAssert.assertEquals(myDriver.getTitle(), "Suscripciones - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Subscriptions - YouTube");
         softAssert.assertAll();
 
     }

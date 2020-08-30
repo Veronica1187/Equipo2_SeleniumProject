@@ -9,19 +9,19 @@ import youtube.pageobjects.YoutubeBasePageObject;
 public class LeftMenuPageObject extends YoutubeBasePageObject {
 
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Principal']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Home']")
     private WebElement LeftHomeButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Tendencias']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Trending']")
     private WebElement LeftTrendingButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Suscripciones']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Subscriptions']")
     private WebElement LeftSubscriptionsButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Biblioteca']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Library']")
     private WebElement LeftLibraryButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='Historial']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @aria-label='History']")
     private WebElement LeftHistoryButton;
 
     public LeftMenuPageObject(WebDriver driver, String baseURL) {

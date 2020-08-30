@@ -21,7 +21,7 @@ public class LibraryTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[not(@page-subtype)]//paper-button[@id='button' and @aria-label='Acceder']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/library");
-        softAssert.assertEquals(myDriver.getTitle(), "Biblioteca - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Library - YouTube");
         softAssert.assertAll();
 
     }
