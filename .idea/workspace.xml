@@ -23,22 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_6_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ru_yandex_qatools_ashot_ashot_1_5_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/resources/suites/allure.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/YouTubeProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/YouTubeProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/BaseTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/BaseTestCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/utils/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/utils/WebDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/headerpageobjects/HeaderSingleButtonsAndDropdownsMenuPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/headerpageobjects/HeaderSingleButtonsAndDropdownsMenuPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/mainpageobjects/MainSearchResultsPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/mainpageobjects/MainSearchResultsPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/utils/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/utils/WebDriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeHeaderPageTestCase/HamburgerMenuTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeHeaderPageTestCase/HamburgerMenuTestCase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +61,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.YouTubeVideoDetailsTestCases">
+    <configuration name="SettingsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeHeaderPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase.SettingsTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YouTubeVideoDetailsTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YouTubeProject" />
       <extension name="coverage">
@@ -97,6 +99,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.YouTubeVideoDetailsTestCases" />
+        <item itemvalue="TestNG.SettingsTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -132,22 +135,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598132765482" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598755861523">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598806353198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598755861523" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598755861523">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598806353198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598755861523" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598755861523">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598806353198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598755861523" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598755861523">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598806353198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598755861523" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598739023251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,5 +163,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1597883569694" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Equipo2_SeleniumProject$YouTubeVideoDetailsTestCases.ic" NAME="YouTubeVideoDetailsTestCases Coverage Results" MODIFIED="1598804655857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*</FILTER>
+    </SUITE>
   </component>
 </project>

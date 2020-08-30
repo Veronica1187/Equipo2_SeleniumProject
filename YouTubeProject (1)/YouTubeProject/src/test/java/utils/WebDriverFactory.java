@@ -17,15 +17,19 @@ public class WebDriverFactory {
             options.addArguments("--disable-notifications");
 
 
-
         //    File chromeFilePath = new File(rootPath, "chromedriver.exe");
 
-           File chromeFilePath = new File(rootPath, "chromedriver 3");
+          // File chromeFilePath = new File(rootPath, "chromedriver 3");
 
 
           //  File chromeFilePath = new File(rootPath, "chromedriver.exe");
 
            // File chromeFilePath = new File(rootPath, "chromedriver.exe");
+
+          //  File chromeFilePath = new File(rootPath, "chromedriver.exe");
+
+            File chromeFilePath = new File(rootPath, "chromedriver.exe");
+
 /*
             File chromeFilePath = new File(rootPath, "chromedriver 3");
 */

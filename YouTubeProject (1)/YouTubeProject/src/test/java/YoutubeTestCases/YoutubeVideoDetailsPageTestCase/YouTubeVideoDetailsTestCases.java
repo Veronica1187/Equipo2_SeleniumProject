@@ -20,10 +20,11 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Description("Check if Video details is displayed correctly")
     @Story("Get to Video Details")
     public void testPlayVideo() {
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
         this.myDriver.get("https://www.youtube.com/watch?v=KyHQlowJVbc");
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.playVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -32,6 +33,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testPauseVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.pauseVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -40,6 +43,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testMuteVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.muteVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -48,6 +53,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testUnmuteVideo() {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.unMuteVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
 
     }
 
@@ -58,6 +65,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testLikeVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.likeVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -66,6 +75,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testUnlikeVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.unlikeVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -74,6 +85,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testShareVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.shareVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -82,6 +95,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testVideoInformation(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.videoInformation();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -90,6 +105,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testSelectNextVideo(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.selectNextVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
     @Test
@@ -98,6 +115,8 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testSelectVideoThumbnail(){
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.selectVideoThumbnail();
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+
     }
 
 
