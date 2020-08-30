@@ -20,7 +20,6 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Description("Check if Video details is displayed correctly")
     @Story("Get to Video Details")
     public void testPlayVideo() {
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
         this.myDriver.get("https://www.youtube.com/watch?v=KyHQlowJVbc");
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.playVideo();
