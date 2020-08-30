@@ -13,7 +13,7 @@ public class LibraryTestCase extends BaseTestCase {
 
     @Test(description = "Validar que al dar click el boton home lleve a la pagina de Signin", groups = {"regression"}, alwaysRun = true)
 
-    public void validateLibraryURL(){
+    public void validateLibraryURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToLibraryURL();

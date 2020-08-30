@@ -15,7 +15,7 @@ public class Subscriptions extends BaseTestCase {
 
     @Test(description = "Validar que al dar click el boton home lleve a la pagina de Signin", groups = {"regression"}, alwaysRun = true)
 
-    public void validateSubscriptionsURL(){
+    public void validateSubscriptionsURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToSubscriptionsURL();

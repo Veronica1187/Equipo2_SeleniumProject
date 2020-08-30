@@ -14,7 +14,7 @@ public class TrendingTestCase extends BaseTestCase {
 
     @Test(description = "Validar que al dar click el boton home lleve a la pagina Trending", groups = {"regression"}, alwaysRun = true)
 
-    public void validateTrendingURL(){
+    public void validateTrendingURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToTrendingURL();
