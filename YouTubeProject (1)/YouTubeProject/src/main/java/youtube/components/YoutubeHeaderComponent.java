@@ -9,7 +9,6 @@ public class YoutubeHeaderComponent {
     private HeaderSearchPageObject headerSearchPageObject;
     private HeaderSettingsPageObject headerSettingsPageObject;
 
-
     public YoutubeHeaderComponent (WebDriver driver){
         this.headerHamburguerMainMenuPageObject = new HeaderHamburguerMainMenuPageObject(driver, driver.getCurrentUrl());
         this.headerSearchPageObject = new HeaderSearchPageObject(driver, driver.getCurrentUrl());

@@ -13,82 +13,78 @@ public class HeaderSettingsPageObject extends YoutubeBasePageObject {
     @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Configuración']")
     private WebElement settingsDropdown;
 
-    @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]")
-    private List<WebElement> optionsSettingsDropdown;
-
-    @FindBy(how = How.XPATH, using = "//div[@id = 'items']//div[@id = 'label']")
+    @FindBy(how = How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Dark theme: Off')]")
     private WebElement theme;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Language:')]")
     private WebElement language;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Location:')]")
     private WebElement location;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using="//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Settings')]")
     private WebElement settings;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using= "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Your data in YouTube')]")
     private WebElement yourData;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using= "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Help')]")
     private WebElement help;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using="//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Send feedback')]")
     private WebElement sendFeedBack;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using= "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Keyboard shortcuts')]")
     private WebElement keyboardShortcuts;
 
-    @FindBy()
+    @FindBy(how= How.XPATH, using= "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Restricted Mode: Off')]")
     private WebElement restrictedMode;
 
     public HeaderSettingsPageObject(WebDriver driver, String baseURL) {
-        super(driver, baseURL);
+
+        super(driver, driver.getCurrentUrl());
     }
 
 
     public void clickOnSettingsDropdown(){
         this.settingsDropdown.click();
-    }
-
-    public boolean isEmptyOptionsSettingsDropdown(){
-       return  this.optionsSettingsDropdown.isEmpty();
-    }
-
-    public void clickOnTheme(){
 
     }
 
-    public void clickOnLanguage(){
-
+    public boolean isVisibleTheme(){
+        return this.theme.isDisplayed();
     }
 
-    public void clickOnLocation(){
-
+    public boolean isVisibleLanguage(){
+        return this.language.isDisplayed();
     }
 
-    public void clickOnSettings(){
-
+    public boolean isVisibleLocation(){
+       return this.location.isDisplayed();
     }
 
-    public void clickOnYourData(){
-
+    public boolean isVisibleSetings(){
+       return this.settings.isDisplayed();
     }
 
-    public void clickOnHelp(){
+   public boolean isVisbleYourData(){
+        return this.yourData.isDisplayed();
+   }
 
+   public boolean isVisbleHelp(){
+        return this.help.isDisplayed();
+   }
+
+   public boolean isVisbleSendFeedBack(){
+        return this.sendFeedBack.isDisplayed();
+   }
+
+   public boolean isVisbleKeyboardShortcuts(){
+        return this.keyboardShortcuts.isDisplayed();
+   }
+
+    public boolean isVisbleRestrictedMode(){
+        return this.restrictedMode.isDisplayed();
     }
 
-    public void clickOnSendFeedBack(){
-
-    }
-
-    public void clickOnKeyboardShortcuts(){
-
-    }
-
-    public void clickOnRestrictedMode(){
-
-    }
 }
