@@ -24,6 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.YouTubeVideoDetailsTestCases">
+  <component name="RunManager" selected="TestNG.CreateVideoTestCase">
+    <configuration name="CreateVideoTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeHeaderPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase.CreateVideoTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SettingsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YouTubeProject" />
       <extension name="coverage">
@@ -96,10 +116,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YouTubeVideoDetailsTestCases.testPlayVideo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.YouTubeVideoDetailsTestCases" />
+      <option name="METHOD_NAME" value="testPlayVideo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YouTubeVideoDetailsTestCases.testShareVideo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.YouTubeVideoDetailsTestCases" />
+      <option name="METHOD_NAME" value="testShareVideo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases" />
+        <item itemvalue="TestNG.CreateVideoTestCase" />
         <item itemvalue="TestNG.SettingsTestCase" />
+        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases.testShareVideo" />
+        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases" />
+        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases.testPlayVideo" />
       </list>
     </recent_temporary>
   </component>
@@ -135,22 +194,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598132765482" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598823396880">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598827466136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598823396880" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598823396880">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598827466136" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598827466135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598823396880" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598823396880">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598827466135" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598827466135">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598823396880" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598823396880">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598827466135" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598827466136">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598823396880" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598827466136" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598739023251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

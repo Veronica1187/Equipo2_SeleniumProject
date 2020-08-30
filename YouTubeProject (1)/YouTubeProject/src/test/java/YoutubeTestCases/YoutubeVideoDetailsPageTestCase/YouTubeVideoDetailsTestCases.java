@@ -2,6 +2,8 @@ package YoutubeTestCases.YoutubeVideoDetailsPageTestCase;
 
 import YoutubeTestCases.BaseTestCase;
 import io.qameta.allure.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,10 +22,11 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Description("Check if Video details is displayed correctly")
     @Story("Get to Video Details")
     public void testPlayVideo() {
-        this.myDriver.get("https://www.youtube.com/watch?v=KyHQlowJVbc");
+        this.myDriver.get("https://www.youtube.com/watch?v=4H5vrauw8l4");
+        WebDriverWait wait = new WebDriverWait(myDriver, 50);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
         youtubeUserSteps.playVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
     }
 
@@ -31,9 +34,9 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Check if Video is correctly paused")
     public void testPauseVideo() {
+        WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.pauseVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
     }
 
@@ -41,9 +44,9 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Check if Video is muted when clicks on Mute button")
     public void testMuteVideo() {
+        WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.muteVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
     }
 
@@ -63,9 +66,9 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Check Like this video pop-up is displayed")
     public void testLikeVideo(){
+        WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.likeVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
     }
 
@@ -83,9 +86,10 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Validate Share pop-up is displayed")
     public void testShareVideo(){
+        WebDriverWait wait = new WebDriverWait(myDriver, 40);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
         youtubeUserSteps.shareVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
     }
 
