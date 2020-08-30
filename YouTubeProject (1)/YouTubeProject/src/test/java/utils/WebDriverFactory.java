@@ -15,6 +15,7 @@ public class WebDriverFactory {
         if(browser.toLowerCase().equals("chrome")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
+<<<<<<< HEAD
 
 
         //    File chromeFilePath = new File(rootPath, "chromedriver.exe");
@@ -23,6 +24,12 @@ public class WebDriverFactory {
 
 
             File chromeFilePath = new File(rootPath, "chromedriver.exe");
+=======
+            File chromeFilePath = new File(rootPath, "chromedriver.exe");
+/*
+            File chromeFilePath = new File(rootPath, "chromedriver 3");
+*/
+>>>>>>> 899208831e1631bc9d1989759247b1aeb3e6a594
             System.setProperty("webdriver.chrome.driver", chromeFilePath.getPath());
             return new ChromeDriver(options);
         } else if (browser.toLowerCase().equals("firefox")) {

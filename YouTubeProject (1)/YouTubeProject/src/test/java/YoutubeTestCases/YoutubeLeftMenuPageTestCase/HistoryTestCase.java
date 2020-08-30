@@ -14,7 +14,7 @@ public class HistoryTestCase extends BaseTestCase{
 
     @Test(description = "Validar que al dar click el boton home lleve a la pagina de Signin y el menu de History type", groups = {"regression"}, alwaysRun = true)
 
-    public void validateHistoryURL(){
+    public void validateHistoryURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToHistoryURL();

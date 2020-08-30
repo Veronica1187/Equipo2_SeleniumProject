@@ -1,6 +1,11 @@
 package YoutubeTestCases.YoutubeMainAreaTestCases;
 import YoutubeTestCases.BaseTestCase;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+import youtube.pages.YoutubeHomePage;
 import youtube.usersteps.YoutubeHomePageUserSteps;
 
 public class YoutTubeMainAreaTestCases extends BaseTestCase {
@@ -43,5 +48,16 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
         YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeUserSteps.selectVideoThumbnailFromNews();
 
+    }
+    @Test()
+    public void TestSelectHistoryOption() {
+        this.myDriver.get("https://www.youtube.com/feed/history");
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait = new WebDriverWait(myDriver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div//ytd-sub-feed-option-renderer//a[contains(@href,'community')]/paper-radio-button")));
+        youtubeHomePageUserSteps.historyMenu("Community");
+        SoftAssert softAssert = new SoftAssert();
+        softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/live_chat_history");
+        softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/community_history");
     }
 }

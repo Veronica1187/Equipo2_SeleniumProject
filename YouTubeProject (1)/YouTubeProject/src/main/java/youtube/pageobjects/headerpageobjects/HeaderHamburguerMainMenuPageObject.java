@@ -57,7 +57,7 @@ public class HeaderHamburguerMainMenuPageObject extends YoutubeBasePageObject {
         this.hamburguerLibraryButton.click();
     }
 
-    public void clickOnHistoryButton(){
+    public void clickOnHamburguerHistoryButton(){
         this.hamburguerHistoryButton.click();
     }
 }

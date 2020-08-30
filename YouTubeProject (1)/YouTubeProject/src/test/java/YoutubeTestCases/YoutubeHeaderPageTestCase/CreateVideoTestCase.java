@@ -25,7 +25,5 @@ public class CreateVideoTestCase extends BaseTestCase {
         softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInCreateDropdown("Transmitir en vivo"));
         softAssert.assertFalse(youtubeHomePageUserSteps.optionExistInCreateDropdown("No existe Opcion x"));
         softAssert.assertAll();
-
-
     }
 }
