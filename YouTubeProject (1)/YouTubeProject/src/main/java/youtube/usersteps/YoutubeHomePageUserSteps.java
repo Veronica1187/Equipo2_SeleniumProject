@@ -24,6 +24,18 @@ public class YoutubeHomePageUserSteps {
         this.youtubeHomePage = new YoutubeHomePage(driver);
     }
 
+    public void goToSignURLHeader(){
+        headerSingleButtonsAndDropdownsMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSingleButtonsAndDropdownsMenuPageObject();
+        headerSingleButtonsAndDropdownsMenuPageObject.clickOnSignInButton();
+
+    }
+
+    public boolean compareSignInURL(String actualURL){
+        String expectedURL = "https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=es-419&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
+        return actualURL.trim().equals(expectedURL);
+
+    }
+
     public void goToHomeURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
