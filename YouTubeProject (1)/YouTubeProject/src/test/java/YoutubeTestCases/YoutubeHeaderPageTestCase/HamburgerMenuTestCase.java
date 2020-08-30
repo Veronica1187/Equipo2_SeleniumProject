@@ -21,7 +21,7 @@ public class HamburgerMenuTestCase extends BaseTestCase {
     }
 
 
-    @Test(description = "Click en Home", groups = {"regression"}, alwaysRun = true)
+    @Test(description = "Click on Home", groups = {"regression"}, alwaysRun = true)
 
     public void validateHomeURLHamburguer(){
         this.myDriver.get("https://www.youtube.com/");
@@ -46,27 +46,27 @@ public class HamburgerMenuTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(local-name(),'sub-menu-avatar-renderer')]//div")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/trending");
-        softAssert.assertEquals(myDriver.getTitle(), "Tendencias - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Trending - YouTube");
         softAssert.assertAll();
 
     }
 
-    @Test(description = "Click en Subscription", groups = {"regression"}, alwaysRun = true)
+    @Test(description = "Click on Subscription", groups = {"regression"}, alwaysRun = true)
 
     public void validateSubscriptionsURLHamburguer(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToSubscriptionsURLHamburguer();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='subscriptions']//paper-button[@id='button' and @aria-label='Acceder']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='subscriptions']//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/subscriptions");
-        softAssert.assertEquals(myDriver.getTitle(), "Suscripciones - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Subscriptions - YouTube");
         softAssert.assertAll();
 
     }
 
-    @Test(description = "Click en Library", groups = {"regression"}, alwaysRun = true)
+    @Test(description = "Click on Library", groups = {"regression"}, alwaysRun = true)
 
     public void validateLibraryURLInHamburguer(){
         this.myDriver.get("https://www.youtube.com/");
@@ -76,19 +76,19 @@ public class HamburgerMenuTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[not(@page-subtype)]//paper-button[@id='button' and @aria-label='Acceder']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/library");
-        softAssert.assertEquals(myDriver.getTitle(), "Biblioteca - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Library - YouTube");
         softAssert.assertAll();
 
     }
 
-    @Test(description = "Click en History", groups = {"regression"}, alwaysRun = true)
+    @Test(description = "Click on History", groups = {"regression"}, alwaysRun = true)
 
     public void validateHistoryURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToHistoryURLHamburguer();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='history']//paper-button[@id='button' and @aria-label='Acceder']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='history']//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/history");
         softAssert.assertEquals(myDriver.getTitle(), "YouTube");

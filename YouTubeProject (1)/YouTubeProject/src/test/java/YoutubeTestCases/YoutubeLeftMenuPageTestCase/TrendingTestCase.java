@@ -22,7 +22,7 @@ public class TrendingTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(local-name(),'sub-menu-avatar-renderer')]//div")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/trending");
-        softAssert.assertEquals(myDriver.getTitle(), "Tendencias - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Trending - YouTube");
         softAssert.assertAll();
 
     }

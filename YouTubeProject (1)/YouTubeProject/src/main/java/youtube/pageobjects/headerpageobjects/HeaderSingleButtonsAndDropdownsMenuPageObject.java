@@ -13,19 +13,19 @@ public class HeaderSingleButtonsAndDropdownsMenuPageObject extends YoutubeBasePa
     @FindBy(how = How.ID, using="logo")
     private WebElement YoutubeIconButton;
 
-    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Crear']")
+    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Create']")
     private WebElement createDropdown;
 
     @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]//yt-formatted-string[@id='label']")
     private List<WebElement> optionsCreateDropdown;
 
-    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Apps de YouTube']")
+    @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='YouTube apps']")
     private WebElement appsDropdown;
 
     @FindBy(how = How.XPATH, using = "//*[contains(local-name(),'compact-link-renderer')]")
     private List<WebElement> optionsAppsDropdown;
 
-    @FindBy(how = How.XPATH, using = "//div[@id='end']//paper-button[@id='button' and @aria-label='Acceder']")
+    @FindBy(how = How.XPATH, using = "//div[@id='end']//paper-button[@id='button' and @aria-label='Sign in']")
     private WebElement signInButton;
 
     public HeaderSingleButtonsAndDropdownsMenuPageObject(WebDriver driver, String baseURL) {

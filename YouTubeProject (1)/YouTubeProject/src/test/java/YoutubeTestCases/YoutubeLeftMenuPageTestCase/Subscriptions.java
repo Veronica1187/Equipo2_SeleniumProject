@@ -20,10 +20,10 @@ public class Subscriptions extends BaseTestCase {
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToSubscriptionsURL();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='subscriptions']//paper-button[@id='button' and @aria-label='Acceder']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='subscriptions']//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/subscriptions");
-        softAssert.assertEquals(myDriver.getTitle(), "Suscripciones - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Subscriptions - YouTube");
         softAssert.assertAll();
 
     }

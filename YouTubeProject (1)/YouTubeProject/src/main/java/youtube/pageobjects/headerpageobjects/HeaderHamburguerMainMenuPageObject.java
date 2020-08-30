@@ -14,19 +14,19 @@ public class HeaderHamburguerMainMenuPageObject extends YoutubeBasePageObject {
     @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-pressed='true']")
     private WebElement hideAllLeftMenuHamburguerButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Principal']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Home']")
     private WebElement hamburguerHomeButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Tendencias']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Trending']")
     private WebElement hamburguerTrendingButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Suscripciones']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Subscriptions']")
     private WebElement hamburguerSubscriptionsButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Biblioteca']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Library']")
     private WebElement hamburguerLibraryButton;
 
-    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='Historial']")
+    @FindBy(how = How.XPATH, using="//a[@id='endpoint' and @role= 'tablist' and @title='History']")
     private WebElement hamburguerHistoryButton;
 
     public HeaderHamburguerMainMenuPageObject(WebDriver driver, String baseURL) {
