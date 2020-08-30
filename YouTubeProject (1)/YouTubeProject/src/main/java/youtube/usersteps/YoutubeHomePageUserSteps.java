@@ -5,6 +5,7 @@ import youtube.pageobjects.headerpageobjects.HeaderHamburguerMainMenuPageObject;
 import youtube.pageobjects.headerpageobjects.HeaderSearchPageObject;
 import youtube.pageobjects.headerpageobjects.HeaderSingleButtonsAndDropdownsMenuPageObject;
 import youtube.pageobjects.leftpageobjects.LeftMenuPageObject;
+import youtube.pageobjects.mainpageobjects.MainHistoryResultsPageObject;
 import youtube.pageobjects.mainpageobjects.MainSearchResultsPageObject;
 import youtube.pageobjects.mainpageobjects.MainTrendingResultsPageObject;
 import youtube.pages.YoutubeHomePage;
@@ -17,6 +18,7 @@ public class YoutubeHomePageUserSteps {
     HeaderSingleButtonsAndDropdownsMenuPageObject headerSingleButtonsAndDropdownsMenuPageObject;
     HeaderSearchPageObject youtubeSearchPageObject;
     MainSearchResultsPageObject mainSearchResultsPageObject;
+    MainHistoryResultsPageObject mainHistoryResultsPageObject;
 
     public YoutubeHomePageUserSteps(WebDriver driver){
         this.youtubeHomePage = new YoutubeHomePage(driver);
@@ -110,7 +112,11 @@ public class YoutubeHomePageUserSteps {
         return pageTitle.replace(" ","").equals(search);
     }
 
+    public void historyMenu(String option){
+        mainHistoryResultsPageObject = this.youtubeHomePage.getYoutubeMainComponent().getMainHistoryResultsPageObject();
+        mainHistoryResultsPageObject.clickOnMainHistoryType(option);
 
+    }
 
     public void displayHamburguerMenu(){
 
