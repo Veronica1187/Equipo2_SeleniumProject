@@ -14,7 +14,7 @@ public class TrendingTestCase extends BaseTestCase {
 
     @Test(description = "Validar que al dar click el boton home lleve a la pagina Trending", groups = {"regression"}, alwaysRun = true)
 
-    public void validateTrendingURL(){
+    public void validateTrendingURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToTrendingURL();
@@ -22,7 +22,7 @@ public class TrendingTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(local-name(),'sub-menu-avatar-renderer')]//div")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/trending");
-        softAssert.assertEquals(myDriver.getTitle(), "Trending - YouTube");
+        softAssert.assertEquals(myDriver.getTitle(), "Tendencias - YouTube");
         softAssert.assertAll();
 
     }

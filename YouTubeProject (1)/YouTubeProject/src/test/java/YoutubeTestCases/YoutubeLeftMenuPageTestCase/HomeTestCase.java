@@ -14,7 +14,7 @@ public class HomeTestCase extends BaseTestCase {
 
     @Test (description = "Validar que al dar click el boton home lleve a la pagina principal", groups = {"regression"}, alwaysRun = true)
 
-    public void validateHomeURL(){
+    public void validateHomeURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToHomeURL();

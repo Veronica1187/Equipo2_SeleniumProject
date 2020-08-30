@@ -53,6 +53,19 @@ public class HeaderSingleButtonsAndDropdownsMenuPageObject extends YoutubeBasePa
         return false;
     }
 
+    public void clickOnAppsButton(){
+        this.appsDropdown.click();
+    }
+
+    public boolean isOptionInAppsDropdown(String option){
+        for(WebElement element : this.optionsAppsDropdown){
+            if(element.getAttribute("innerText").trim().equals(option)){
+                return true;
+            }
+        }
+        return false;
+    }
+
     public boolean isEmptyOptionsAppsDropdown(){
         return  this.optionsAppsDropdown.isEmpty();
     }
