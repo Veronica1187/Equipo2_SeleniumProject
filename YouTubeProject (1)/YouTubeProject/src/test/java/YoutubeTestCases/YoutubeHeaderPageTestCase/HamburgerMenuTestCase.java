@@ -12,6 +12,7 @@ public class HamburgerMenuTestCase extends BaseTestCase {
     public static void hamburgerMenu(){
 
 
+
     }
 
     @Test(description = "Click en Home", groups = {"regression"}, alwaysRun = true)

@@ -8,17 +8,20 @@ import youtube.pageobjects.leftpageobjects.LeftMenuPageObject;
 import youtube.pageobjects.mainpageobjects.MainSearchResultsPageObject;
 import youtube.pageobjects.mainpageobjects.MainTrendingResultsPageObject;
 import youtube.pages.YoutubeHomePage;
+import youtube.pageobjects.headerpageobjects.HeaderSettingsPageObject;
 
 public class YoutubeHomePageUserSteps {
 
     private YoutubeHomePage youtubeHomePage;
     LeftMenuPageObject leftMenuPageObject;
+    HeaderSettingsPageObject headerSettingsPageObject;
     HeaderHamburguerMainMenuPageObject headerHamburguerMainMenuPageObject;
     HeaderSingleButtonsAndDropdownsMenuPageObject headerSingleButtonsAndDropdownsMenuPageObject;
     HeaderSearchPageObject youtubeSearchPageObject;
     MainSearchResultsPageObject mainSearchResultsPageObject;
 
     public YoutubeHomePageUserSteps(WebDriver driver){
+
         this.youtubeHomePage = new YoutubeHomePage(driver);
     }
 
@@ -89,10 +92,82 @@ public class YoutubeHomePageUserSteps {
 
     }
 
-    public void selectOptionFromSettingsMenu(){
+  /*  public void selectOptionFromSettingsMenu(){
+        
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        headerSettingsPageObject.clickOnSettingsDropdown();
+        
+    }*/
+
+    public void selectSettingsDropMenu(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        headerSettingsPageObject.clickOnSettingsDropdown();
 
     }
 
+    public boolean selectOptionTheme(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisibleTheme();
+
+    }
+
+    public boolean selectOptionLanguage(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisibleLanguage();
+
+    }
+
+    public boolean selectOptionLocation(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisibleLocation();
+
+    }
+
+    public boolean selectOptionSetings(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisibleSetings();
+
+    }
+
+    public boolean selectOptionYourData(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisbleYourData();
+
+    }
+
+    public boolean selectOptionHelp(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisbleHelp();
+
+    }
+
+    public boolean selectOptionSendFeedBack(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisbleSendFeedBack();
+
+    }
+
+    public boolean selectOptionKeyBoard(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisbleKeyboardShortcuts();
+
+    }
+
+    public boolean selectOptionRestrictedMode(){
+
+        headerSettingsPageObject= this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderSettingsPageObject();
+        return  headerSettingsPageObject.isVisbleRestrictedMode();
+
+    }
     public void searchForVideo(){
     }
 

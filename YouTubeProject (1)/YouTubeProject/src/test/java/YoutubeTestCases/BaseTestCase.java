@@ -22,6 +22,8 @@ public class BaseTestCase {
         myDriver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         myDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         myDriver.manage().window().maximize();
+
+
     }
 
     @AfterClass(alwaysRun = true)
