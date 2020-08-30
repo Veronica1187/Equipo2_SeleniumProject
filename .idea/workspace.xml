@@ -22,10 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +59,24 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.YouTubeVideoDetailsTestCases">
+    <configuration name="SettingsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeHeaderPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase.SettingsTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YouTubeVideoDetailsTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YouTubeProject" />
       <extension name="coverage">
@@ -83,6 +97,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.YouTubeVideoDetailsTestCases" />
+        <item itemvalue="TestNG.SettingsTestCase" />
       </list>
     </recent_temporary>
   </component>
