@@ -40,6 +40,26 @@ public class YoutubeVideoPageUserSteps {
 
     }
 
+    public boolean muteVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleMute();
+
+    }
+
+    public boolean likeVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleLike();
+
+    }
+
+    public boolean unLikeVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleLike();
+
+    }
     public boolean videoInformationVisible(){
 
         videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();

@@ -28,10 +28,10 @@ public class WebDriverFactory {
 
           //  File chromeFilePath = new File(rootPath, "chromedriver.exe");
 
-         // File chromeFilePath = new File(rootPath, "chromedriver.exe");
+         File chromeFilePath = new File(rootPath, "chromedriver.exe");
 
 
-            File chromeFilePath = new File(rootPath, "chromedriver 3");
+          //  File chromeFilePath = new File(rootPath, "chromedriver 3");
 
 
             System.setProperty("webdriver.chrome.driver", chromeFilePath.getPath());

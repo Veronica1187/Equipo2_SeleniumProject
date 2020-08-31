@@ -97,6 +97,17 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
         return this.videoThumbnailDetailsPage.isDisplayed();
     }
 
+    public boolean isVisibleMute(){
+    return this.muteButton.isDisplayed();
+    }
+
+    public boolean isVisibleLike(){
+        return this.likeVideo.isDisplayed();
+    }
+
+    public boolean isVisibleUnLike(){
+        return this.unlikeVideo.isDisplayed();
+    }
     public void clickOnPlayButton(){
     this.playButton.click();
     }

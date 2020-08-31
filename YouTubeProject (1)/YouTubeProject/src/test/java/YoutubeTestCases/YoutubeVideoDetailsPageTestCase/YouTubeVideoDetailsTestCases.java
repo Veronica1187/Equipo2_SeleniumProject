@@ -63,6 +63,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.likeVideo();
+        Assert.assertTrue(youtubeUserSteps.likeVideoVisible());
 
     }
 
@@ -73,6 +74,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.unlikeVideo();
+        Assert.assertTrue(youtubeUserSteps.unLikeVideoVisible());
 
     }
 
@@ -83,7 +85,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         WebDriverWait wait = new WebDriverWait(myDriver, 25);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.muteVideo();
-
+        Assert.assertTrue(youtubeUserSteps.muteVideoVisible());
     }
 
 
