@@ -24,7 +24,227 @@
   <component name="ChangeListManager">
     <list default="true" id="e07899ca-8364-4121-9b01-f638ce6ac05f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0042f573-ca68-4b38-88e3-d1112005c384-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/00e38c84-efc8-40b4-9a3e-ba8c67980be8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/02990c51-a0b9-416b-833e-9ea555bed05f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/02c9de34-c2df-417f-b3ae-10ca1200d5e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/04100913-b37a-4b91-b0b4-daae85ffeb5e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/04c0b0a9-8489-4b91-a52b-7c5285921f19-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/054f6fb2-d236-4fa4-a41f-75769d53526a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/07fc0c86-2b86-459a-816c-0f3a2080de08-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/08a3caba-edfc-481c-a7af-b3d2b7b2dffe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/09c49dae-41fd-41cd-b4b4-fc19736d12ac-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/09fcba37-51ab-4911-9b60-e4ee12238b3e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0a39242a-dc72-4795-80e2-d846b9a8f97e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0b92b809-be5b-44d4-ba43-29ba0e099773-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0bb09f2f-0728-46cc-9099-1d53561ad716-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0e733f25-cade-474d-8a30-9a39f83a7318-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/0f4866b5-0c0c-4321-a5d5-80ed5cb89217-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/11f4be65-0a52-450d-8392-fa664acb3f84-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/14f2b5fa-3d5f-48b4-9636-a49c1c673f3e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/15036fd7-678f-42f4-881b-5fcb4d6caed0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1561e6bb-6217-4e73-b0cc-657df9cf0e00-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/163542c5-e599-45fb-93b3-7fcca908628b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/16cdac0a-3346-4e71-9c2a-655e82ac8ba0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/176f2e52-e435-40cf-9f96-1cae679ee519-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/182d72ac-c1cb-45d4-99aa-e86045e2e6c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/18c71b8b-8ad2-4f42-891f-c59b9a07752a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1947a72f-6f79-440c-8b7d-fefd12227cde-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/194d0ea1-9234-4b7c-b80d-91cf673b704c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1953f469-2306-4aa9-85b6-35768604b498-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1a505f76-8a87-43ab-846e-858fdd74d27d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1b00eb8a-9f03-4958-af65-fbcbafdbf771-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1b608e0e-8e2e-467a-a0e0-6c93ed971f79-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1becefa3-bfc5-4afa-99b8-b3f0fd4f3b2e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1c757014-6a22-40c2-8388-0dd9ef9a1467-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1d5c8e95-656b-4bce-a30d-946b6560e583-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1d8fd050-7b38-4439-bdaa-d898a7542cec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1dc22e1b-9272-4fcb-9280-42780ead0455-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/1fa3aa18-ad52-49a0-87fe-2ed65ba7d684-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/20362807-a343-48a2-bacf-f988adf5dc29-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/21608720-5513-454c-a00a-1dfa527e7a32-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2303acfc-803e-4a98-88b6-5b33f5da3e70-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/23dfb103-b349-4245-9003-e84f3a7f8889-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/242d2fdb-cc0f-40c8-831b-aa0dcb39dc58-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/24988c5c-a420-4c39-957f-d220f85f5797-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/26d30569-ad32-4962-ba7a-7bdc40b58b95-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2773659a-bae7-4400-81d8-36798ce187b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/27a7dc6d-b593-47e0-b2e4-b1860469345d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/27c25119-660e-4264-bd0c-73fcadc0675a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/286c2c80-e885-4d2f-bacc-c300232d5382-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/29e8c5d0-4324-486e-a9a7-2ec3abd6306a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2a334f18-773e-4ab5-b38f-fd8aeee758e4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2ac31518-694c-4f1a-961d-f959008b3fbc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2aff5fd5-6d43-48f7-a38d-0ca0903843ee-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2b43f308-d4b9-4d13-a6cc-b08834921891-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2c085f68-32da-4b28-b6ff-1e434c7055d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2dffd8b0-c8e1-425d-8cef-64606e9bfe1e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/2e63ddc2-b3d8-4c9b-a47d-baa37037c792-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/30ace957-dcc8-4327-8348-ba41b50045c4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/31aa8fe0-6cef-421a-862d-50a151e192df-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/33324c10-098b-4684-9c6b-b61b59e0b54c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/34a95ced-be4e-4918-b4c5-a8f9f4d66221-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/35873e8f-bff2-482d-80a3-a492927c100c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/37ebfeb7-b993-4545-96e8-dbed3a4df8a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/3839bd71-fbf8-4014-ba20-77f6ab5683cb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/393c894d-2f09-413c-b612-36e8e82d610e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/39802c1d-45a9-42de-a6f0-436e911a21b5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/3cc124a2-7a33-419e-ba2a-1c011ff096b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/3e459fb7-6f77-41a8-a68a-df2723ff5141-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/3e620479-cc1e-4447-9af4-4ec6a1230116-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/3eae51d5-955a-4d98-9035-15e311ef3580-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/40bd1c8c-a41d-4ff3-8094-909beee0e722-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/413553cb-59c8-43fa-a5e4-a2e021a2d4c6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/426600e8-10a6-4778-8320-54e7eb27b4b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/427e9774-b958-4fa4-a5ee-0cc504b5859d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/44dc5b64-1465-4484-996a-3650d88feb58-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/471735c1-193a-4e75-9c78-13c53c9086e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4843776c-22c3-4571-8da2-0512d9ddabb5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4960cab9-a668-4e9d-ab5a-d0ce10a133bd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4bf16f37-2efd-469c-bbc8-f92ac89e0181-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4d04f286-9501-47e3-9f62-ab2059a72cbb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4f28819c-8212-4ba8-8738-2dc827036cc0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/4fa62135-4998-410a-b083-247e6f5f7c07-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/517c978f-08bc-4c7b-9117-021eb49ced6b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/558b72a4-e3c9-4b1b-9116-d9d69d070348-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/563687ec-b19a-4572-8abe-5c0ea583a3b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/56b3fe25-abc7-461e-a0f2-738ff9b353ae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/576a4022-697d-4511-8735-e6a44498fa61-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/58c6178a-0eb1-4273-85e1-2e6042132207-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/5b6912a4-619f-4756-b0b2-1dec9ee1c293-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/5bdf86d3-5a95-418f-9791-59f12ab3d712-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/5e194aca-2cb4-4494-b36d-d00f6795f84e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/5f814c7c-c99f-4705-b067-4a46b2583bf1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/5fc8d8e3-b438-47d5-9d07-240f4a6ad0bd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6314813f-1e1d-4ca3-9fbf-4f753d12ea3b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/640ba887-55f7-4e18-8749-70b4622ae300-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6869f59e-01ac-4931-8f5d-bf07d3c7204c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/687c475e-b289-4e63-9fc8-35558e0a9686-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6bf24bcf-e772-4f20-83c4-14ffeed699df-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6bf72b1d-cf04-40c9-8007-3550ec3a8c13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6c2236aa-636b-4ca5-9b13-47011839a56e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6c4c722e-440f-4953-bc64-be3ebbde33cb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6c9c8b5d-f2ed-4962-8df2-e2f11f914b92-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6ce2d680-3e10-4598-8882-56d00c6728be-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6d8cfe36-9e61-485f-894a-cb53c84619e1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6fc2a8f2-cefb-41af-86be-e1a51f311882-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/6ffb2471-c33f-43fa-8be6-7acff9ff0b22-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/726edf46-b3e6-46d9-aec6-fde2785f7982-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/75477cd9-8996-41d0-bdf1-d3a9ab36d3cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/773156bb-2d9d-473f-b81f-8765a1bc25b9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/77a9c0f4-8a91-4faa-8919-223604a36918-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/78adbb3f-db70-4e58-87f8-9bab041b2291-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/78e0024f-76eb-4140-88d1-617db521dab1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7a8d89ff-36c3-4d39-9140-81d2d80bf818-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7b8ab3ba-6640-4c7c-8ae3-f18413a62597-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7bb6d803-3890-4bef-a106-962d0f2fc111-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7cbbdc85-d60d-4bc9-b7e4-6c62c438495e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7e98790a-f975-41a6-ad1d-25671f1f257e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7eab77fb-d0d0-420f-98fb-277d720fec9f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/7eb0bba3-a512-4f12-bbd0-0fbd8010bdc3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/80172b2b-5c0a-4a04-9769-b0ec4ff3e82a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/802e75e1-ef73-4096-831b-f185d9a098c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/820d241c-b7bb-469d-9647-9d86a0205885-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/826875b6-02f3-4bfe-b6a7-37ba98bc1587-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/8e0228d6-0818-4efc-b04b-8eba63b4ad9d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/8ec4ff67-5f61-4125-8cdc-542a1bca7bda-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/8f479c78-dc4c-40bd-b5b0-3e2e64138164-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/90b0c042-f0ee-472c-8166-add0d9ac5df8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/912b5aa1-b1b7-43e3-a95b-9ea8d794b499-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/929e95a8-a6d2-4f9f-952c-1fc72e06965f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/92e20c20-4476-41dd-896d-5be51ce8babe-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/958c89e8-1b11-419f-ac00-58c7a26bb5f3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/98535eef-e27f-4719-8b88-21c90e669817-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/98e2f668-5e06-4aca-b86c-71ac6900d770-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9b05c588-7d6a-4da6-b5df-d0b1e19f075b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9b5ced55-2484-478a-9a01-4c65d4e5a8e7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9ba84305-efb7-44d2-87a2-dd0c7901ea8b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9d2fad13-896c-4eec-abff-8ecdaee7d331-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9e635ae8-0171-414f-b5b0-d1f855978e41-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/9e8ce521-218f-45c2-94cf-4df17f4eeb85-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/a006f015-5153-4469-b747-474374b7fd90-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/a1656a4b-7b35-43a6-b1b4-517ec05faf1e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/a21229a6-b224-4c4d-9eb9-d057a3519169-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/a34edc7b-c176-4362-a3f9-c53f76d8700f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/a77e5e51-689f-4cc3-aa6e-ece690b070a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/aa536871-94df-4380-ae91-cee67f32ef3b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/aac64ed9-7a97-4d97-bab7-43923d33c1ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ac6d77e7-09b5-4c77-b3d7-686c1fd98823-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/aca2ac3f-51fb-482f-81b3-25fa35b75223-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ad16d494-51e8-4712-91bf-3d988f346aee-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ad489501-7006-4c5c-abfe-aa9903f14bdd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/afc0c65e-d5b5-4c84-9bd8-b745f0770edc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b1891ce7-02db-459c-86eb-5139ecbf6752-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b1d0d409-2381-4284-a87f-91588d907de7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b39a16f6-0f31-4e89-88cf-6c22b675ef5f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b3c772fb-5a3d-4e9f-b49a-b58b4721245f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b49796f8-1e9d-4e42-ae9a-3bce4fe9eddb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b75f905b-e21d-48ec-bc7d-83c76ba04668-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b9772346-917c-4df2-b90d-2fa68f0ede29-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/b9eed10d-3ee6-43ea-9cc5-0d5cc7cd1584-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ba3b5938-305e-4a54-a4b9-60bd7cc20412-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ba9c7b9f-ba06-41d7-86ee-31f7c17f093a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/bac6351c-9674-42b3-8e81-82e2169926fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/bbd67384-5a52-43a5-a96d-3c2e6eecc22f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/bd3d21de-6aad-439f-81f3-f9fb118733f8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/be3274ea-00ee-4dfa-b8af-4d387518c525-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/be711857-6b26-4011-9d53-27f3378693e6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/bfb1996c-18c1-43a9-9775-0495b7cfb868-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c0a3be3f-90e0-4d41-b592-72778b0128d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c0f60742-1007-462d-86e9-3690f25cddbb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c167ef7a-2e10-4489-9c69-c7cb853a9399-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c2285bcc-5860-4551-8acb-fe41a38eceb2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c3240102-d79d-49dc-8335-c538f88d24ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c383aa83-147e-41f6-9548-3885854bd559-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c551133c-d235-4928-9412-f6466528a45d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/c8608f06-8571-4b97-8f17-f29b16416305-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/cacd1bd8-43c1-4d8b-955e-709aad2625ff-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ccd64554-90e9-44b9-bc26-7055b289af54-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/cd8afa7f-6506-4b78-8c4c-77d2a1669f9d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ce9209f8-7d50-4806-a6e5-c19d1eef2b4a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/cfeac68f-9760-41df-8640-b327453698b4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d5fd5b27-7d04-411f-a79a-5283aad26075-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d679efd0-776a-483f-af19-9e16dc41299b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d6f2e58c-aedd-44ce-a73a-6fe5838a47a3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d8ef9ca1-9acc-4361-83fd-ca5def926431-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d9350def-44ba-4881-9860-49f3af19101e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d9a6d868-cd7b-4006-b517-52dae60b5556-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d9a874cd-6514-452a-ac8b-7ea517c1993d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/d9f4de7e-782e-4841-b9c9-3018b955b235-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/dc36b2d9-e49b-4da7-a510-d24869ab6bb5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/def8e2dc-2983-4e06-b5a5-9b1b009392a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/df11b9c8-e966-4a85-a76f-60ba89d1f87a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/df18a027-2a09-4425-b541-b93da4d2ac1a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e01a75a3-c530-4f0d-81d7-71a18989d3d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e18f78e2-34d5-4f41-9674-77ef98341195-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e1f3508c-84f1-41b8-95be-af302f722ff7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e56fe005-cb78-4984-b94b-81c8b02a005a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e988a5bb-8d77-4755-89dc-ac30fe65831d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/e989d8ad-c930-4c5d-a087-a324645d813e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/eb13bf9b-47de-4cc6-bff5-9e1feb4f071d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ec9da48f-cfdc-4657-ae3f-9cda970c64c5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/ed69c79f-3094-47f6-8098-af941a2a24ba-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f1e2d27e-7e41-4786-923a-895a7e0e45e0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f2a84ab3-2aeb-4001-9aab-adac109a850d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f6185dc0-b303-4d5b-b5f0-b00e005dc953-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f7631a8a-7b5e-4346-a375-b48730bae8f1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f7ccd221-cb3b-4a95-a984-a168a12cd472-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f8b0ad49-fdde-4d84-bb66-2f916aa45e31-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f8c436a8-1ef2-4af0-9e50-d3f455210795-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/f9c16037-b348-4df4-a033-9352fc13677a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/fa0591e1-db88-4b08-b96a-e305bb882c5f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/fab6e1a7-d5c5-41fa-9ec5-08072cb9bcd3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/fc2408d3-c78c-4519-b5d6-393302d44fc9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/fde02f99-3d08-4209-86d1-efb3560c843e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/allure-results/fe5888c6-616c-414e-bdf5-8270eb97c5e4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeVideoPageUserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/main/java/youtube/usersteps/YoutubeVideoPageUserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/BaseTestCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/BaseTestCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/src/test/java/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/pageobjects/videodetailspageobjects/VideoDetailsPageObjects.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/usersteps/YoutubeVideoPageUserSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/classes/youtube/usersteps/YoutubeVideoPageUserSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/BaseTestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/BaseTestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/YouTubeProject (1)/YouTubeProject/target/test-classes/YoutubeTestCases/YoutubeVideoDetailsPageTestCase/YouTubeVideoDetailsTestCases.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +282,41 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.YouTubeVideoDetailsTestCases">
+    <configuration name="CreateVideoTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeHeaderPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase.CreateVideoTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SettingsTestCase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeHeaderPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeHeaderPageTestCase.SettingsTestCase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="YouTubeVideoDetailsTestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="YouTubeProject" />
       <extension name="coverage">
@@ -80,9 +334,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YouTubeVideoDetailsTestCases.testPlayVideo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.YouTubeVideoDetailsTestCases" />
+      <option name="METHOD_NAME" value="testPlayVideo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YouTubeVideoDetailsTestCases.testSelectNextVideo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="YouTubeProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase" />
+      <option name="MAIN_CLASS_NAME" value="YoutubeTestCases.YoutubeVideoDetailsPageTestCase.YouTubeVideoDetailsTestCases" />
+      <option name="METHOD_NAME" value="testSelectNextVideo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.YouTubeVideoDetailsTestCases" />
+        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases.testPlayVideo" />
+        <item itemvalue="TestNG.YouTubeVideoDetailsTestCases.testSelectNextVideo" />
+        <item itemvalue="TestNG.CreateVideoTestCase" />
+        <item itemvalue="TestNG.SettingsTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -118,22 +412,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598132765482" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598806353198">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1598835823115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598806353198">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598835823115" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1598835823114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598806353198">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598835823114" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1598835823114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598806353198">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598835823114" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1598835823114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598806353198" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598835823114" />
     <state x="213" y="19" key="Maven.ArtifactSearchDialog" timestamp="1598739023251">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -149,6 +443,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Equipo2_SeleniumProject$YouTubeVideoDetailsTestCases.ic" NAME="YouTubeVideoDetailsTestCases Coverage Results" MODIFIED="1598804655857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Equipo2_SeleniumProject$YouTubeVideoDetailsTestCases_testPlayVideo.ic" NAME="YouTubeVideoDetailsTestCases.testPlayVideo Coverage Results" MODIFIED="1598833966414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>YoutubeTestCases.YoutubeVideoDetailsPageTestCase.*</FILTER>
     </SUITE>
   </component>

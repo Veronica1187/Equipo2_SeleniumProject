@@ -27,8 +27,8 @@ public class CreateVideoTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-rich-item-renderer//a[@id='thumbnail']")));
 
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInCreateDropdown("Subir video"));
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInCreateDropdown("Transmitir en vivo"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInCreateDropdown("Upload video"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInCreateDropdown("Go live"));
         softAssert.assertFalse(youtubeHomePageUserSteps.optionExistInCreateDropdown("No existe Opcion x"));
         softAssert.assertAll();
     }

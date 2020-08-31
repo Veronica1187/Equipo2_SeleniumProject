@@ -42,7 +42,7 @@ public class YoutubeHomePageUserSteps {
     public void goToHomeURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+       //headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftHomeButton();
     }
 
@@ -55,7 +55,7 @@ public class YoutubeHomePageUserSteps {
     public void goToTrendingURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+        //headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftTrendingButton();
     }
 
@@ -68,7 +68,7 @@ public class YoutubeHomePageUserSteps {
     public void goToSubscriptionsURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+    headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftSubscriptionsButton();
     }
 
@@ -80,7 +80,7 @@ public class YoutubeHomePageUserSteps {
     public void goToLibraryURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+   headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftLibraryButton();
     }
 
@@ -92,7 +92,7 @@ public class YoutubeHomePageUserSteps {
     public void goToHistoryURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+   headerHamburguerMainMenuPageObject.clickOnUnhideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftHistoryButton();
     }
 

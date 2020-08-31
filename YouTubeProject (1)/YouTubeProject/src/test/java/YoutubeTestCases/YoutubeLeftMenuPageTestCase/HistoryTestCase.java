@@ -23,7 +23,7 @@ public class HistoryTestCase extends BaseTestCase{
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToHistoryURL();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='history']//paper-button[@id='button' and @aria-label='Acceder']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='history']//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/history");
         softAssert.assertEquals(myDriver.getTitle(), "YouTube");

@@ -26,11 +26,11 @@ public class YoutubeAppsTestCase extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-rich-item-renderer//a[@id='thumbnail']")));
 
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube TV"));
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube Music"));
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube Kids"));
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("Academia de Creadores"));
-        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube para Artistas"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube TV"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube Music"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("YouTube Kids"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("Creator Academy"));
+        softAssert.assertTrue(youtubeHomePageUserSteps.optionExistInAppsDropdown("Youtube for Artist"));
         softAssert.assertAll();
     }
 

@@ -79,5 +79,6 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/live_chat_history");
         softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/community_history");
+        softAssert.assertAll();
     }
 }

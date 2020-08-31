@@ -13,10 +13,10 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
     @FindBy(how=How.XPATH, using="//button[@class='ytp-play-button ytp-button’]")
     private WebElement videoPlayer;
 
-    @FindBy(how=How.XPATH, using="//a[@class='ytp-next-button ytp-button']")
+    @FindBy(how=How.XPATH, using="//button[@class='ytp-play-button ytp-button’]")
     private WebElement playButton;
 
-    @FindBy(how=How.XPATH, using ="//a[@class='ytp-next-button ytp-button']")
+    @FindBy(how=How.XPATH, using ="//button[@class='ytp-play-button ytp-button’]")
     private WebElement pauseButton;
 
     @FindBy(how=How.XPATH, using ="//button[@class='ytp-mute-button ytp-button']" )
@@ -76,6 +76,26 @@ public class VideoDetailsPageObjects extends YoutubeBasePageObject{
 public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
     super(driver, baseURL);
 }
+
+    public boolean isVisibleSelectNext(){
+        return this.nextVideoButton.isDisplayed();
+    }
+
+    public boolean isVisibleThumbnail(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean isVisibleUnmute(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean isVisibleShare(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean informationVisible(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
 
     public void clickOnPlayButton(){
     this.playButton.click();
