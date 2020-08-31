@@ -1,6 +1,8 @@
 package youtube.usersteps;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import youtube.pageobjects.leftpageobjects.LeftMenuPageObject;
 import youtube.pageobjects.videodetailspageobjects.VideoDetailsPageObjects;
 import youtube.pages.YoutubeHomePage;
@@ -9,7 +11,8 @@ import youtube.pages.YoutubeVideoPage;
 public class YoutubeVideoPageUserSteps {
 
     private YoutubeVideoPage youtubeVideoPage;
-    public YoutubeVideoPageUserSteps(WebDriver driver){
+
+    public YoutubeVideoPageUserSteps(WebDriver driver) {
         this.youtubeVideoPage = new YoutubeVideoPage(driver);
     }
 
@@ -51,7 +54,7 @@ public class YoutubeVideoPageUserSteps {
         videoDetailsPageObjects.clickCloseShare();
     }
 
-    public void videoInformation(){
+    public void videoInformation() {
         VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
         videoDetailsPageObjects.videoInformation();
     }
@@ -61,12 +64,12 @@ public class YoutubeVideoPageUserSteps {
         videoDetailsPageObjects.clickOnNextVideo();
     }
 
-    public void selectVideoThumbnail(){
+    public void selectVideoThumbnail() {
         VideoDetailsPageObjects videoDetailsPageObjects = this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
         videoDetailsPageObjects.clickOnThumbnailsVideos();
     }
 
+
+
+
 }
-
-
-

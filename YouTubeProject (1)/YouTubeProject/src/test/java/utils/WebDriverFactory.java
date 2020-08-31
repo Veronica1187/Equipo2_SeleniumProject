@@ -32,8 +32,8 @@ public class WebDriverFactory {
 
 /*
             File chromeFilePath = new File(rootPath, "chromedriver 3");
-*/
 
+*/
             System.setProperty("webdriver.chrome.driver", chromeFilePath.getPath());
             return new ChromeDriver(options);
         } else if (browser.toLowerCase().equals("firefox")) {

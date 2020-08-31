@@ -3,13 +3,17 @@ package YoutubeTestCases.YoutubeVideoDetailsPageTestCase;
 import YoutubeTestCases.BaseTestCase;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import youtube.usersteps.YoutubeVideoPageUserSteps;
 
+import java.util.Objects;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Predicate;
 
 @Epic("Youtube Testing")
 @Feature("Video Details Page")
@@ -17,17 +21,16 @@ import java.util.concurrent.TimeUnit;
 public class YouTubeVideoDetailsTestCases extends BaseTestCase {
 
 
-    @Test (description = "Validate play button when clicks on it", groups = {"regression"}, alwaysRun = true)
+    @Test (description = "Validate play button when clicks on it", groups = {"regression"}, alwaysRun = true, priority = 1)
     @Severity(SeverityLevel.NORMAL)
     @Description("Check if Video details is displayed correctly")
     @Story("Get to Video Details")
     public void testPlayVideo() {
         this.myDriver.get("https://www.youtube.com/watch?v=4H5vrauw8l4");
-        WebDriverWait wait = new WebDriverWait(myDriver, 50);
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
-        youtubeUserSteps.playVideo();
 
+        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
+
+        youtubeUserSteps.playVideo();
     }
 
     @Test
