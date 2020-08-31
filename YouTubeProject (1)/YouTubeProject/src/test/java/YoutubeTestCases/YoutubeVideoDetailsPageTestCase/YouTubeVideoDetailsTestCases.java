@@ -5,6 +5,7 @@ import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import youtube.usersteps.YoutubeVideoPageUserSteps;
@@ -17,70 +18,36 @@ import java.util.concurrent.TimeUnit;
 public class YouTubeVideoDetailsTestCases extends BaseTestCase {
 
 
-    @Test (description = "Validate play button when clicks on it", groups = {"regression"}, alwaysRun = true)
+   @Test (description = "Validate play button when clicks on it", groups = {"regression"}, alwaysRun = true)
     @Severity(SeverityLevel.NORMAL)
     @Description("Check if Video details is displayed correctly")
     @Story("Get to Video Details")
     public void testPlayVideo() {
-        this.myDriver.get("https://www.youtube.com/watch?v=4H5vrauw8l4");
-        WebDriverWait wait = new WebDriverWait(myDriver, 50);
+        this.myDriver.get("https://www.youtube.com/watch?v=bb3Esxf5I4g");
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
         youtubeUserSteps.playVideo();
+        //WebDriverWait wait = new WebDriverWait(myDriver, 20);
 
     }
 
-    @Test
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Check if Video is correctly paused")
-    public void testPauseVideo() {
-        WebDriverWait wait = new WebDriverWait(myDriver, 25);
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.pauseVideo();
 
-    }
 
-    @Test
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Check if Video is muted when clicks on Mute button")
-    public void testMuteVideo() {
-        WebDriverWait wait = new WebDriverWait(myDriver, 25);
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.muteVideo();
 
-    }
-
-    @Test
+    @Test (description = "Validate unmute button when clicks on it", groups = {"regression"}, alwaysRun = true)
     @Severity(SeverityLevel.NORMAL)
     @Description("Check if Video is unmuted when click on sound button")
+    @Story("Get to Video Details")
     public void testUnmuteVideo() {
+        this.myDriver.get("https://www.youtube.com/watch?v=bb3Esxf5I4g");
+
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.unMuteVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
-
-
-    }
-
-
-    @Test
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Check Like this video pop-up is displayed")
-    public void testLikeVideo(){
-        WebDriverWait wait = new WebDriverWait(myDriver, 25);
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.likeVideo();
+        WebDriverWait wait = new WebDriverWait(myDriver, 30);
+        Assert.assertTrue(youtubeUserSteps.unmuteVideoVisible());
 
     }
 
-    @Test
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Check UnLike this video pop-up is displayed")
-    public void testUnlikeVideo(){
-        YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        youtubeUserSteps.unlikeVideo();
-        WebDriverWait wait = new WebDriverWait(myDriver, 10);
 
-    }
 
     @Test
     @Severity(SeverityLevel.NORMAL)
@@ -88,8 +55,10 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     public void testShareVideo(){
         WebDriverWait wait = new WebDriverWait(myDriver, 40);
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
+      //  wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1/yt-formatted-string")));
         youtubeUserSteps.shareVideo();
+        Assert.assertTrue(youtubeUserSteps.shareVideoVisible());
+
 
     }
 
@@ -100,6 +69,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.videoInformation();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeUserSteps.videoInformationVisible());
 
     }
 
@@ -110,6 +80,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.selectNextVideo();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeUserSteps.nextVideoVisible());
 
     }
 
@@ -120,6 +91,7 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
         youtubeUserSteps.selectVideoThumbnail();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeUserSteps.videoThumbnailVisible());
 
     }
 
