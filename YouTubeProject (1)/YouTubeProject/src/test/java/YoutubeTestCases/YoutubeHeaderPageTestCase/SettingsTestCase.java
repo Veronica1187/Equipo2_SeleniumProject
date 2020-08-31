@@ -35,6 +35,7 @@ public class SettingsTestCase extends BaseTestCase {
         youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
         YoutubeHomePageUserSteps youtubeHomePageUserSteps1 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait9 = new WebDriverWait(myDriver, 10);
         Assert.assertTrue(youtubeHomePageUserSteps1.selectOptionTheme());
     }
 

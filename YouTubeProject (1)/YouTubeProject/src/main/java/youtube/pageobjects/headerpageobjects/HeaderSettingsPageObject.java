@@ -13,7 +13,7 @@ public class HeaderSettingsPageObject extends YoutubeBasePageObject {
     @FindBy(how = How.XPATH, using = "//button[@id='button' and @aria-label='Settings']")
     private WebElement settingsDropdown;
 
-    @FindBy(how = How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Dark theme: Off')]")
+    @FindBy(how = How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'theme')]")
     private WebElement theme;
 
     @FindBy(how= How.XPATH, using = "//*[@id='items']//*[@id='label']/..//*[contains(text(), 'Language:')]")
