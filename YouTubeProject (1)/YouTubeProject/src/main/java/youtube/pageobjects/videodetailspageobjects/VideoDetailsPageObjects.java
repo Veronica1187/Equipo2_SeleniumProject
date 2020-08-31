@@ -77,6 +77,26 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
     super(driver, baseURL);
 }
 
+    public boolean isVisibleSelectNext(){
+        return this.nextVideoButton.isDisplayed();
+    }
+
+    public boolean isVisibleThumbnail(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean isVisibleUnmute(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean isVisibleShare(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
+    public boolean informationVisible(){
+        return this.videoThumbnailDetailsPage.isDisplayed();
+    }
+
     public void clickOnPlayButton(){
     this.playButton.click();
     }

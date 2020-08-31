@@ -12,8 +12,46 @@ public class YoutubeVideoPageUserSteps {
 
     private YoutubeVideoPage youtubeVideoPage;
 
-    public YoutubeVideoPageUserSteps(WebDriver driver) {
+        VideoDetailsPageObjects videoDetailsPageObjects;
+
+    public YoutubeVideoPageUserSteps(WebDriver driver){
+
         this.youtubeVideoPage = new YoutubeVideoPage(driver);
+    }
+
+    public boolean nextVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleSelectNext();
+
+    }
+
+    public boolean videoThumbnailVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleThumbnail();
+
+    }
+
+    public boolean shareVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleShare();
+
+    }
+
+    public boolean videoInformationVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.informationVisible();
+
+    }
+
+    public boolean unmuteVideoVisible(){
+
+        videoDetailsPageObjects= this.youtubeVideoPage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        return  videoDetailsPageObjects.isVisibleUnmute();
+
     }
 
     public void playVideo() {
