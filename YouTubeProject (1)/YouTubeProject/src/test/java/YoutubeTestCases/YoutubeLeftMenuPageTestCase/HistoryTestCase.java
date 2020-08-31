@@ -18,10 +18,10 @@ public class HistoryTestCase extends BaseTestCase{
     @Severity(SeverityLevel.NORMAL)
     @Description("Validate the History URL")
     @Story("Validate the History URL")
-    public void validateHistoryURLInLeft(){
+    public void validateHistoryURLHamburguer(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
-        youtubeHomePageUserSteps.goToHistoryURL();
+        youtubeHomePageUserSteps.goToHistoryURLHamburguer();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[@page-subtype='history']//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
