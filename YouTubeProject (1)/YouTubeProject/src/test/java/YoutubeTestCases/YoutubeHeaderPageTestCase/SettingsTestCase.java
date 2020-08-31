@@ -31,9 +31,11 @@ public class SettingsTestCase extends BaseTestCase {
 
     public void settingsValidateTheme() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionTheme());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps1 = new YoutubeHomePageUserSteps(this.myDriver);
+        Assert.assertTrue(youtubeHomePageUserSteps1.selectOptionTheme());
     }
 
     @Test(description = "Validar que la opcion Language", groups = {"regression"}, alwaysRun = true)
@@ -42,9 +44,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Language menu")
     public void validateOptionLanguage() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionLanguage());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps2 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait1 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps2.selectOptionLanguage());
     }
 
     @Test(description = "Validar la opcion Location", groups = {"regression"}, alwaysRun = true)
@@ -53,9 +58,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Location menu")
     public void validateOptionLocation() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionLocation());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps3 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait2 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps3.selectOptionLocation());
     }
 
     @Test(description = "Validar la opcion Settings", groups = {"regression"}, alwaysRun = true)
@@ -64,9 +72,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Settings menu")
     public void validateOptionSettings() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionSetings());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps4 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait3 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps4.selectOptionSetings());
     }
 
     @Test(description = "Validar la opcion Data", groups = {"regression"}, alwaysRun = true)
@@ -75,9 +86,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Validate your Data menu")
     public void validateOptionYourData() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionYourData());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps5 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait4 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps5.selectOptionYourData());
     }
 
     @Test(description = "Validar la opcion Help", groups = {"regression"}, alwaysRun = true)
@@ -86,9 +100,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Validate Help option menu")
     public void validateOptionHelp() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionHelp());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps6 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait5 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps6.selectOptionHelp());
     }
 
     @Test(description = "Validar la opcion FeedBack", groups = {"regression"}, alwaysRun = true)
@@ -97,9 +114,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Validate FeedBack menu")
     public void validateOptionFeedBack() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionSendFeedBack());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps7 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait6 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps7.selectOptionSendFeedBack());
     }
 
     @Test(description = "Validar la opcion KeyBoard", groups = {"regression"}, alwaysRun = true)
@@ -108,9 +128,12 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Validate your Key Board menu")
     public void validateOptionKeyBoard() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionKeyBoard());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps8 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait7 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps8.selectOptionKeyBoard());
     }
 
     @Test(description = "Validar la opcion Restricted Mode", groups = {"regression"}, alwaysRun = true)
@@ -119,8 +142,11 @@ public class SettingsTestCase extends BaseTestCase {
     @Story("Get to Validate Restricted Mode menu")
     public void validateOptionRestrictedMode() {
         this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps=new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeHomePageUserSteps.selectSettingsDropMenu();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        Assert.assertTrue(youtubeHomePageUserSteps.selectOptionRestrictedMode());
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps9 = new YoutubeHomePageUserSteps(this.myDriver);
+        WebDriverWait wait8 = new WebDriverWait(myDriver, 10);
+        Assert.assertTrue(youtubeHomePageUserSteps9.selectOptionRestrictedMode());
     }
 }
