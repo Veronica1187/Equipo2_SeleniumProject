@@ -1,5 +1,6 @@
 package YoutubeTestCases.YoutubeHeaderPageTestCase;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -11,10 +12,16 @@ import YoutubeTestCases.BaseTestCase;
 import youtube.usersteps.YoutubeHomePageUserSteps;
 
 
+@Epic("Youtube Testing")
+@Feature("Video Details Page")
+
+
 public class SearchTestCase extends BaseTestCase {
 
     @Test(description = "Introducir una busqueda y dar click", groups = {"regression"}, alwaysRun = true)
-
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test the searching functionality")
+    @Story("Search functionality")
     public void validateSearchURL(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps;

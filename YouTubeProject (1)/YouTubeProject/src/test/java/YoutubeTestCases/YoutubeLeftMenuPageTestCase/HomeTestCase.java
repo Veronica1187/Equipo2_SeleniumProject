@@ -1,5 +1,6 @@
 package YoutubeTestCases.YoutubeLeftMenuPageTestCase;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -9,11 +10,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import YoutubeTestCases.BaseTestCase;
 import youtube.usersteps.YoutubeHomePageUserSteps;
-
+@Epic("Youtube Testing")
+@Feature("Home Option")
 public class HomeTestCase extends BaseTestCase {
 
     @Test (description = "Validar que al dar click el boton home lleve a la pagina principal", groups = {"regression"}, alwaysRun = true)
-
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Validate the URL")
+    @Story("Validate the home URL")
     public void validateHomeURLInLeft(){
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
