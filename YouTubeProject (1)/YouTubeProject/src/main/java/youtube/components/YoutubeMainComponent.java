@@ -13,6 +13,8 @@ public class YoutubeMainComponent {
     public YoutubeMainComponent(WebDriver driver){
         this.mainHomeResultsPageObject = new MainHomeResultsPageObject(driver, driver.getCurrentUrl());
         this.mainHistoryResultsPageObject = new MainHistoryResultsPageObject(driver, driver.getCurrentUrl());
+        this.mainTrendingResultsPageObject = new MainTrendingResultsPageObject(driver, driver.getCurrentUrl());
+        this.mainSearchResultsPageObject = new MainSearchResultsPageObject(driver, driver.getCurrentUrl());
     }
 
     public MainHomeResultsPageObject getMainHomeResultsPageObject() {

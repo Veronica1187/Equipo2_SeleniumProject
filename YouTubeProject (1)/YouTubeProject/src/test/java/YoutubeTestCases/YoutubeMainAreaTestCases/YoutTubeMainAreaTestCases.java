@@ -4,6 +4,7 @@ import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import youtube.pages.YoutubeHomePage;
@@ -26,10 +27,25 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Select video from results")
     @Story("Select video from results")
-    public void TestselectVideoFromResults() {
+    /*public void TestselectVideoFromResults() {
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeUserSteps.selectVideoFromResults();
+
+    }*/
+
+    //last change in results
+    public void TestselectVideoFromResults() {
+        this.myDriver.get("https://www.youtube.com/");
+        YoutubeHomePageUserSteps youtubeHomePageUserSteps;
+        youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        String contentOfVideo = "Testing using selenium";
+        int videoNumberInList = 0;
+        youtubeHomePageUserSteps.searchVideos(contentOfVideo);
+        WebDriverWait wait = new WebDriverWait(myDriver, 30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@id='contents']//ytd-video-renderer//a[@id='thumbnail']")));
+        Assert.assertTrue(youtubeHomePageUserSteps.compareSearchWordWithVideoResults(contentOfVideo, videoNumberInList));
+        youtubeHomePageUserSteps.selectVideoFromResults(videoNumberInList);
 
     }
 
@@ -49,10 +65,18 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Select video from Trending")
     @Story("Select video from Trending")
-    public void TestSelectVideoThumbnailFromTrending() {
+    /*public void TestSelectVideoThumbnailFromTrending() {
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeUserSteps.selectVideoThumbnailFromTrending();
+
+    }*/
+
+    //last change in test case trending
+    public void TestSelectVideoThumbnailFromTrending() {
+        this.myDriver.get("https://www.youtube.com/");
+        YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
+        youtubeUserSteps.selectVideoThumbnailFromTrending(1);
 
     }
 
@@ -77,7 +101,7 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div//ytd-sub-feed-option-renderer//a[contains(@href,'community')]/paper-radio-button")));
         youtubeHomePageUserSteps.historyMenu("Community");
         SoftAssert softAssert = new SoftAssert();
-        softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/live_chat_history");
+        //softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/live_chat_history");
         softAssert.assertEquals(myDriver.getCurrentUrl(),"https://www.youtube.com/feed/history/community_history");
         softAssert.assertAll();
     }

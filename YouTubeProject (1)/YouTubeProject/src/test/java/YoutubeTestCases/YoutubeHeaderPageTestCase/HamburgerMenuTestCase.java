@@ -12,17 +12,6 @@ import youtube.usersteps.YoutubeHomePageUserSteps;
 
 public class HamburgerMenuTestCase extends BaseTestCase {
 
-<<<<<<< HEAD
-
-=======
->>>>>>> a59d209e7a1c46a435bddc306c69907622596e94
-    @Test(description = "Validar que al dar click se despliegue un menu con las opciones: Home, Trending, Subscriptions, Library, History", groups = {"regression"}, alwaysRun = true)
-
-    public static void hamburgerMenu(){
-
-
-
-    }
 
 
     @Test(description = "Click on Home", groups = {"regression"}, alwaysRun = true)
@@ -77,7 +66,7 @@ public class HamburgerMenuTestCase extends BaseTestCase {
         YoutubeHomePageUserSteps youtubeHomePageUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
         youtubeHomePageUserSteps.goToLibraryURLHamburguer();
         WebDriverWait wait = new WebDriverWait(myDriver, 10);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[not(@page-subtype)]//paper-button[@id='button' and @aria-label='Acceder']")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//ytd-browse[not(@page-subtype)]//paper-button[@id='button' and @aria-label='Sign in']")));
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertEquals(myDriver.getCurrentUrl(), "https://www.youtube.com/feed/library");
         softAssert.assertEquals(myDriver.getTitle(), "Library - YouTube");

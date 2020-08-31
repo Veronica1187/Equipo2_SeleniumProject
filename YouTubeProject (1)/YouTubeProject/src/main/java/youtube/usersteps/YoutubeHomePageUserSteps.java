@@ -8,6 +8,7 @@ import youtube.pageobjects.leftpageobjects.LeftMenuPageObject;
 import youtube.pageobjects.mainpageobjects.MainHistoryResultsPageObject;
 import youtube.pageobjects.mainpageobjects.MainSearchResultsPageObject;
 import youtube.pageobjects.mainpageobjects.MainTrendingResultsPageObject;
+import youtube.pageobjects.videodetailspageobjects.VideoDetailsPageObjects;
 import youtube.pages.YoutubeHomePage;
 import youtube.pageobjects.headerpageobjects.HeaderSettingsPageObject;
 
@@ -21,6 +22,8 @@ public class YoutubeHomePageUserSteps {
     HeaderSearchPageObject youtubeSearchPageObject;
     MainSearchResultsPageObject mainSearchResultsPageObject;
     MainHistoryResultsPageObject mainHistoryResultsPageObject;
+    MainTrendingResultsPageObject mainTrendingResultsPageObject;
+    VideoDetailsPageObjects videoDetailsPageObjects;
 
     public YoutubeHomePageUserSteps(WebDriver driver){
 
@@ -34,15 +37,15 @@ public class YoutubeHomePageUserSteps {
     }
 
     public boolean compareSignInURL(String actualURL){
-        String expectedURL = "https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Des-419%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=es-419&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
+        String expectedURL = "https://accounts.google.com/signin/v2/identifier?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620&flowName=GlifWebSignIn&flowEntry=ServiceLogin";
         return actualURL.trim().equals(expectedURL);
 
     }
-
+//descomentamos linea 3 de este metodo .clik...
     public void goToHomeURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-       //headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftHomeButton();
     }
 
@@ -55,7 +58,7 @@ public class YoutubeHomePageUserSteps {
     public void goToTrendingURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-        //headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+        headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftTrendingButton();
     }
 
@@ -92,7 +95,7 @@ public class YoutubeHomePageUserSteps {
     public void goToHistoryURL(){
         leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
         headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
-   headerHamburguerMainMenuPageObject.clickOnUnhideAllLeftMenuHamburguerButton();
+  // headerHamburguerMainMenuPageObject.clickOnUnhideAllLeftMenuHamburguerButton();
         leftMenuPageObject.clickOnLeftHistoryButton();
     }
 
@@ -224,17 +227,42 @@ public class YoutubeHomePageUserSteps {
     public void searchForVideo(){
     }
 
-    public void selectVideoFromResults(){
+    public void selectVideoFromResults(int videoNumber){
+        videoDetailsPageObjects = this.youtubeHomePage.getYoutubeVideoDetailsComponent().getVideoDetailsPageObjects();
+        mainSearchResultsPageObject = this.youtubeHomePage.getYoutubeMainComponent().getMainSearchResultsPageObject();
+        mainSearchResultsPageObject.clickOnThumbnail(videoNumber);
+        videoDetailsPageObjects.waitForVideo();
+    }
+
+    //agregando nuevo metodo
+    public boolean compareSearchWordWithVideoResults(String wordToSearch, int videoNumberInList){
+        mainSearchResultsPageObject = this.youtubeHomePage.getYoutubeMainComponent().getMainSearchResultsPageObject();
+        String[] splitWord = wordToSearch.split(" ");
+        for (String valor : splitWord){
+            if (mainSearchResultsPageObject.getVideoTitle(videoNumberInList).toLowerCase().contains(valor.toLowerCase())){
+                return true;
+            }
+        }
+        return false;
 
     }
+
 
     public void selectVideoThumbnailFromRecommended(){
 
     }
 
-    public void selectVideoThumbnailFromTrending(){
+   //agregando nuevo cambio
+   public void selectVideoThumbnailFromTrending(int videoNumber){
+       leftMenuPageObject = this.youtubeHomePage.getYoutubeLeftComponent().getLeftMenuPageObject();
+       mainTrendingResultsPageObject = this.youtubeHomePage.getYoutubeMainComponent().getMainTrendingResultsPageObject();
+       headerHamburguerMainMenuPageObject = this.youtubeHomePage.getYoutubeHeaderComponent().getHeaderHamburguerMainMenuPageObject();
+       headerHamburguerMainMenuPageObject.clickOnHideAllLeftMenuHamburguerButton();
+       leftMenuPageObject.clickOnLeftTrendingButton();
 
-    }
+
+       mainTrendingResultsPageObject.clickOnThumbnail(videoNumber);
+   }
 
 
     public void selectVideoThumbnailFromNews(){

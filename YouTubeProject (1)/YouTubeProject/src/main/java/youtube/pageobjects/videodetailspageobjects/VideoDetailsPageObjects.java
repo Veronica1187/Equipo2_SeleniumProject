@@ -1,9 +1,12 @@
 package youtube.pageobjects.videodetailspageobjects;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import youtube.pageobjects.YoutubeBasePageObject;
 
 public class VideoDetailsPageObjects extends YoutubeBasePageObject{
@@ -80,6 +83,14 @@ public  VideoDetailsPageObjects(WebDriver driver, String baseURL){
     public boolean isVisibleSelectNext(){
         return this.nextVideoButton.isDisplayed();
     }
+
+    //agregando nuevo metodo
+    public void waitForVideo(){
+        WebDriverWait wait = new WebDriverWait(this.driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='details style-scope ytd-compact-video-renderer']")));
+
+    }
+
 
     public boolean isVisibleThumbnail(){
         return this.videoThumbnailDetailsPage.isDisplayed();

@@ -1,9 +1,12 @@
 package youtube.pageobjects.leftpageobjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import youtube.pageobjects.YoutubeBasePageObject;
 
 public class LeftMenuPageObject extends YoutubeBasePageObject {
@@ -32,8 +35,15 @@ public class LeftMenuPageObject extends YoutubeBasePageObject {
         this.LeftHomeButton.click();
     }
 
+    /*public void clickOnLeftTrendingButton(){
+        this.LeftTrendingButton.click();
+    }*/
+//Last change in Trending
     public void clickOnLeftTrendingButton(){
         this.LeftTrendingButton.click();
+        WebDriverWait wait = new WebDriverWait(this.driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(local-name(),'sub-menu-avatar-renderer')]//div")));
+
     }
 
     public void clickOnLeftSubscriptionsButton(){
