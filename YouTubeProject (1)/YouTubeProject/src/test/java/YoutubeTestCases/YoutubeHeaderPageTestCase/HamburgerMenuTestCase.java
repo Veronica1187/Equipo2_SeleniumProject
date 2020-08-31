@@ -12,6 +12,10 @@ import youtube.usersteps.YoutubeHomePageUserSteps;
 
 public class HamburgerMenuTestCase extends BaseTestCase {
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> a59d209e7a1c46a435bddc306c69907622596e94
     @Test(description = "Validar que al dar click se despliegue un menu con las opciones: Home, Trending, Subscriptions, Library, History", groups = {"regression"}, alwaysRun = true)
 
     public static void hamburgerMenu(){

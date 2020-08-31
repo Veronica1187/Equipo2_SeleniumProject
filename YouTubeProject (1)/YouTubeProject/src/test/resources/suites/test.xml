@@ -78,6 +78,12 @@
         </classes>
     </test>
 
+    <test name="Validar la funcionalidad de Main Area">
+        <classes>
+            <class name="YoutubeTestCases.YoutubeMainAreaTestCases.YoutTubeMainAreaTestCases"></class>
+        </classes>
+    </test>
+
 
 
 </suite>
