@@ -65,14 +65,7 @@ public class YoutTubeMainAreaTestCases extends BaseTestCase {
     @Severity(SeverityLevel.NORMAL)
     @Description("Select video from Trending")
     @Story("Select video from Trending")
-    /*public void TestSelectVideoThumbnailFromTrending() {
-        this.myDriver.get("https://www.youtube.com/");
-        YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);
-        youtubeUserSteps.selectVideoThumbnailFromTrending();
 
-    }*/
-
-    //last change in test case trending
     public void TestSelectVideoThumbnailFromTrending() {
         this.myDriver.get("https://www.youtube.com/");
         YoutubeHomePageUserSteps youtubeUserSteps = new YoutubeHomePageUserSteps(this.myDriver);

@@ -29,12 +29,11 @@ public class YouTubeVideoDetailsTestCases extends BaseTestCase {
     @Story("Get to Video Details")
     public void testPlayVideo() {
 
-        this.myDriver.get("https://www.youtube.com/watch?v=4H5vrauw8l4");
+        this.myDriver.get("https://www.youtube.com/watch?v=FRn5J31eAMw");
 
         YoutubeVideoPageUserSteps youtubeUserSteps = new YoutubeVideoPageUserSteps(this.myDriver);
 
         youtubeUserSteps.playVideo();
-        //WebDriverWait wait = new WebDriverWait(myDriver, 20);
 
 
         youtubeUserSteps.playVideo();

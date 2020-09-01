@@ -35,10 +35,6 @@ public class LeftMenuPageObject extends YoutubeBasePageObject {
         this.LeftHomeButton.click();
     }
 
-    /*public void clickOnLeftTrendingButton(){
-        this.LeftTrendingButton.click();
-    }*/
-//Last change in Trending
     public void clickOnLeftTrendingButton(){
         this.LeftTrendingButton.click();
         WebDriverWait wait = new WebDriverWait(this.driver, 10);
